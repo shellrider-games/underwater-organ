@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9D4A4932-6E3D-2905-E96B-C37D46FC3917}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DF621B7A-9CF0-4899-81C9-0133E0D924AD}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="39625985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\087-D#.wav</ShortName>
+					<CachePath>SFX/Principal8/087-D#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="43614274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\096-C.wav</ShortName>
+					<CachePath>SFX/Principal8/096-C_818F3B66.wem</CachePath>
+				</File>
+				<File Id="51140825" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\061-C#.wav</ShortName>
+					<CachePath>SFX/Principal8/061-C#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="86287456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\038-D.wav</ShortName>
+					<CachePath>SFX/Principal8/038-D_818F3B66.wem</CachePath>
+				</File>
+				<File Id="112543227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\073-C#.wav</ShortName>
+					<CachePath>SFX/Principal8/073-C#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="131143198" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\072-C.wav</ShortName>
+					<CachePath>SFX/Principal8/072-C_818F3B66.wem</CachePath>
+				</File>
+				<File Id="145664210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\065-F.wav</ShortName>
+					<CachePath>SFX/Principal8/065-F_818F3B66.wem</CachePath>
+				</File>
+				<File Id="213440143" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\051-D#.wav</ShortName>
+					<CachePath>SFX/Principal8/051-D#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="216198337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\092-G#.wav</ShortName>
+					<CachePath>SFX/Principal8/092-G#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="259144161" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\059-B.wav</ShortName>
+					<CachePath>SFX/Principal8/059-B_818F3B66.wem</CachePath>
+				</File>
+				<File Id="265187159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\053-F.wav</ShortName>
+					<CachePath>SFX/Principal8/053-F_818F3B66.wem</CachePath>
+				</File>
+				<File Id="286777141" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\058-A#.wav</ShortName>
+					<CachePath>SFX/Principal8/058-A#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="303114001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\036-C.wav</ShortName>
+					<CachePath>SFX/Principal8/036-C_2D083FFA.wem</CachePath>
+				</File>
+				<File Id="335327089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\085-C#.wav</ShortName>
+					<CachePath>SFX/Principal8/085-C#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="340342448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\064-E.wav</ShortName>
+					<CachePath>SFX/Principal8/064-E_818F3B66.wem</CachePath>
+				</File>
+				<File Id="346578369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\090-F#.wav</ShortName>
+					<CachePath>SFX/Principal8/090-F#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="360511338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\071-B.wav</ShortName>
+					<CachePath>SFX/Principal8/071-B_818F3B66.wem</CachePath>
+				</File>
+				<File Id="396050894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\095-B.wav</ShortName>
+					<CachePath>SFX/Principal8/095-B_818F3B66.wem</CachePath>
+				</File>
+				<File Id="402989184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\060-C.wav</ShortName>
+					<CachePath>SFX/Principal8/060-C_818F3B66.wem</CachePath>
+				</File>
+				<File Id="419559830" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\041-F.wav</ShortName>
+					<CachePath>SFX/Principal8/041-F_818F3B66.wem</CachePath>
+				</File>
+				<File Id="442472184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\075-D#.wav</ShortName>
+					<CachePath>SFX/Principal8/075-D#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="449904650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\081-A.wav</ShortName>
+					<CachePath>SFX/Principal8/081-A_818F3B66.wem</CachePath>
+				</File>
+				<File Id="459956898" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\039-D#.wav</ShortName>
+					<CachePath>SFX/Principal8/039-D#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="460442983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\068-G#.wav</ShortName>
+					<CachePath>SFX/Principal8/068-G#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="464901353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\069-A.wav</ShortName>
+					<CachePath>SFX/Principal8/069-A_818F3B66.wem</CachePath>
+				</File>
+				<File Id="470474439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\080-G#.wav</ShortName>
+					<CachePath>SFX/Principal8/080-G#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="472422728" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\078-F#.wav</ShortName>
+					<CachePath>SFX/Principal8/078-F#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="472813565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\049-C#.wav</ShortName>
+					<CachePath>SFX/Principal8/049-C#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="498091354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\054-F#.wav</ShortName>
+					<CachePath>SFX/Principal8/054-F#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="507252946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\042-F#.wav</ShortName>
+					<CachePath>SFX/Principal8/042-F#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="520117515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\086-D.wav</ShortName>
+					<CachePath>SFX/Principal8/086-D_818F3B66.wem</CachePath>
+				</File>
+				<File Id="548969372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\043-G.wav</ShortName>
+					<CachePath>SFX/Principal8/043-G_818F3B66.wem</CachePath>
+				</File>
+				<File Id="553112629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\093-A.wav</ShortName>
+					<CachePath>SFX/Principal8/093-A_818F3B66.wem</CachePath>
+				</File>
+				<File Id="564167744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\062-D.wav</ShortName>
+					<CachePath>SFX/Principal8/062-D_818F3B66.wem</CachePath>
+				</File>
+				<File Id="592303247" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\044-G#.wav</ShortName>
+					<CachePath>SFX/Principal8/044-G#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="607745889" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\074-D.wav</ShortName>
+					<CachePath>SFX/Principal8/074-D_818F3B66.wem</CachePath>
+				</File>
+				<File Id="627831608" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\055-G.wav</ShortName>
+					<CachePath>SFX/Principal8/055-G_818F3B66.wem</CachePath>
+				</File>
+				<File Id="641094467" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\079-G.wav</ShortName>
+					<CachePath>SFX/Principal8/079-G_818F3B66.wem</CachePath>
+				</File>
+				<File Id="654904936" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\047-B.wav</ShortName>
+					<CachePath>SFX/Principal8/047-B_818F3B66.wem</CachePath>
+				</File>
+				<File Id="682413394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\066-F#.wav</ShortName>
+					<CachePath>SFX/Principal8/066-F#_E017A78C.wem</CachePath>
+				</File>
+				<File Id="694919857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\084-C.wav</ShortName>
+					<CachePath>SFX/Principal8/084-C_818F3B66.wem</CachePath>
+				</File>
+				<File Id="694970331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\076-E.wav</ShortName>
+					<CachePath>SFX/Principal8/076-E_818F3B66.wem</CachePath>
+				</File>
+				<File Id="759729818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\037-C#.wav</ShortName>
+					<CachePath>SFX/Principal8/037-C#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="768484244" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\083-B.wav</ShortName>
+					<CachePath>SFX/Principal8/083-B_818F3B66.wem</CachePath>
+				</File>
+				<File Id="800055448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\070-A#.wav</ShortName>
+					<CachePath>SFX/Principal8/070-A#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="801578213" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\067-G.wav</ShortName>
+					<CachePath>SFX/Principal8/067-G_818F3B66.wem</CachePath>
+				</File>
+				<File Id="811945688" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\091-G.wav</ShortName>
+					<CachePath>SFX/Principal8/091-G_818F3B66.wem</CachePath>
+				</File>
+				<File Id="850895212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\082-A#.wav</ShortName>
+					<CachePath>SFX/Principal8/082-A#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="868995851" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\048-C.wav</ShortName>
+					<CachePath>SFX/Principal8/048-C_818F3B66.wem</CachePath>
+				</File>
+				<File Id="878248129" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\057-A.wav</ShortName>
+					<CachePath>SFX/Principal8/057-A_818F3B66.wem</CachePath>
+				</File>
+				<File Id="907553478" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\052-E.wav</ShortName>
+					<CachePath>SFX/Principal8/052-E_818F3B66.wem</CachePath>
+				</File>
+				<File Id="911875488" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\056-G#.wav</ShortName>
+					<CachePath>SFX/Principal8/056-G#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="930523464" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\077-F.wav</ShortName>
+					<CachePath>SFX/Principal8/077-F_818F3B66.wem</CachePath>
+				</File>
+				<File Id="946869455" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\089-F.wav</ShortName>
+					<CachePath>SFX/Principal8/089-F_818F3B66.wem</CachePath>
+				</File>
+				<File Id="961536390" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\045-A.wav</ShortName>
+					<CachePath>SFX/Principal8/045-A_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1001435022" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\063-D#.wav</ShortName>
+					<CachePath>SFX/Principal8/063-D#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1004883074" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\088-E.wav</ShortName>
+					<CachePath>SFX/Principal8/088-E_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1029801042" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\040-E.wav</ShortName>
+					<CachePath>SFX/Principal8/040-E_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1053837084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\046-A#.wav</ShortName>
+					<CachePath>SFX/Principal8/046-A#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1067545004" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\094-A#.wav</ShortName>
+					<CachePath>SFX/Principal8/094-A#_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1070516992" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Principal8\050-D.wav</ShortName>
+					<CachePath>SFX/Principal8/050-D_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="689865038" Name="PlayOrgan" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="39625985"/>
+						<MediaRef Id="43614274"/>
+						<MediaRef Id="51140825"/>
+						<MediaRef Id="86287456"/>
+						<MediaRef Id="112543227"/>
+						<MediaRef Id="131143198"/>
+						<MediaRef Id="145664210"/>
+						<MediaRef Id="213440143"/>
+						<MediaRef Id="216198337"/>
+						<MediaRef Id="259144161"/>
+						<MediaRef Id="265187159"/>
+						<MediaRef Id="286777141"/>
+						<MediaRef Id="303114001"/>
+						<MediaRef Id="335327089"/>
+						<MediaRef Id="340342448"/>
+						<MediaRef Id="346578369"/>
+						<MediaRef Id="360511338"/>
+						<MediaRef Id="396050894"/>
+						<MediaRef Id="402989184"/>
+						<MediaRef Id="419559830"/>
+						<MediaRef Id="442472184"/>
+						<MediaRef Id="449904650"/>
+						<MediaRef Id="459956898"/>
+						<MediaRef Id="460442983"/>
+						<MediaRef Id="464901353"/>
+						<MediaRef Id="470474439"/>
+						<MediaRef Id="472422728"/>
+						<MediaRef Id="472813565"/>
+						<MediaRef Id="498091354"/>
+						<MediaRef Id="507252946"/>
+						<MediaRef Id="520117515"/>
+						<MediaRef Id="548969372"/>
+						<MediaRef Id="553112629"/>
+						<MediaRef Id="564167744"/>
+						<MediaRef Id="592303247"/>
+						<MediaRef Id="607745889"/>
+						<MediaRef Id="627831608"/>
+						<MediaRef Id="641094467"/>
+						<MediaRef Id="654904936"/>
+						<MediaRef Id="682413394"/>
+						<MediaRef Id="694919857"/>
+						<MediaRef Id="694970331"/>
+						<MediaRef Id="759729818"/>
+						<MediaRef Id="768484244"/>
+						<MediaRef Id="800055448"/>
+						<MediaRef Id="801578213"/>
+						<MediaRef Id="811945688"/>
+						<MediaRef Id="850895212"/>
+						<MediaRef Id="868995851"/>
+						<MediaRef Id="878248129"/>
+						<MediaRef Id="907553478"/>
+						<MediaRef Id="911875488"/>
+						<MediaRef Id="930523464"/>
+						<MediaRef Id="946869455"/>
+						<MediaRef Id="961536390"/>
+						<MediaRef Id="1001435022"/>
+						<MediaRef Id="1004883074"/>
+						<MediaRef Id="1029801042"/>
+						<MediaRef Id="1053837084"/>
+						<MediaRef Id="1067545004"/>
+						<MediaRef Id="1070516992"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9332DC11-B5CA-32E7-3264-A2A6FE3249AD}</FileHash>
+</SoundBanksInfo>

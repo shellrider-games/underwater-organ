@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="360AV_WwiseProject" GUID="{22CDB10A-CD5D-42C3-8054-C876B9D61962}" Generator="2023.1.9.8628"/>
+	<CacheRoot>../../../../360AV_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Android" GUID="{3BBBC2A1-C58F-433D-ABE4-31A0359419C5}" BasePlatform="Android" BasePlatformGUID="{A2D401DE-B8B6-4FEB-8142-137C34D507CA}" Path="../../../../360AV_WwiseProject/GeneratedSoundBanks/Android"/>
+		<Platform Name="Mac" GUID="{128FE4AF-3CA4-4690-A3B4-49F037746F63}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../360AV_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{1D9C3011-F12F-4C17-9A78-1DC16C6CCCD7}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../360AV_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{F308EC6A-9356-45C8-B632-A7A69E178D11}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{2C084780-CE9E-7B05-0AB3-7287B6F8F584}</FileHash>
+</ProjectInfo>

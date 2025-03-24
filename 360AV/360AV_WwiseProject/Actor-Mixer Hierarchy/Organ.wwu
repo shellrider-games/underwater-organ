@@ -4,6 +4,12 @@
 		<WorkUnit Name="Organ" ID="{5282C575-6365-4A4E-AC37-54D903E436E0}" PersistMode="Standalone">
 			<ChildrenList>
 				<BlendContainer Name="Principal8" ID="{B08593F9-1C92-4A5E-8EB9-A57024CD1824}" ShortID="361488160">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BlendBehavior" Type="int16" Value="1"/>
+						<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+						<Property Name="MidiBreakOnNoteOff" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -14,6 +20,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="036-C" ID="{C899E0B6-1ED6-4080-803D-546A25D18DAF}" ShortID="1011185566">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="36"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="36"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -24,6 +37,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="036-C" ID="{8DF26D78-8488-411E-AEC5-A1D112C17421}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.874173293391431"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Principal8\036-C.wav</AudioFile>
 									<MediaIDList>
@@ -36,6 +53,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="037-C#" ID="{FE59B2A9-14D6-43D2-970B-D3F342E89C36}" ShortID="829607704">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="37"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="37"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="37"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -58,6 +82,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="038-D" ID="{0C41FBA0-2110-492B-9F7C-61F5D21AFFD6}" ShortID="579978171">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="38"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="38"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="38"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -80,6 +111,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="039-D#" ID="{4B7A6E24-06E7-4557-BFC2-854248982F2D}" ShortID="445700626">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="39"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="39"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="39"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -102,6 +140,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="040-E" ID="{D0C33816-1F7E-42C2-82B9-1A60C07D27FD}" ShortID="601699470">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="40"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="40"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="40"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -124,6 +169,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="041-F" ID="{3322EA65-D7DA-4148-8FBC-1D8A5A3789B2}" ShortID="761679564">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="41"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="41"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="41"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -146,6 +198,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="042-F#" ID="{E0CF8B1D-D961-4F9D-A576-CBA75354A9ED}" ShortID="505664683">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="42"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="42"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="42"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -168,6 +227,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="043-G" ID="{E93EEC22-5B68-4048-996B-6F3A085CE7B2}" ShortID="704576781">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="43"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="43"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="43"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -190,6 +256,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="044-G#" ID="{6A5EEAC2-6CA0-4F7F-90F8-4D170046C133}" ShortID="816901918">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="44"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="44"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="44"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -212,6 +285,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="045-A" ID="{EBAD58DF-1F40-49F1-B24D-86A7C908F09B}" ShortID="964183755">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="45"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="45"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="45"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -234,6 +314,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="046-A#" ID="{6D90C0F8-B1B6-48D3-A0D7-FA4C4271E6B3}" ShortID="107908557">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="46"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="46"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="46"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -256,6 +343,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="047-B" ID="{9CE3522D-2CDB-4AC1-9041-9D7FE0891987}" ShortID="500380356">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="47"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="47"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="47"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -278,6 +372,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="048-C" ID="{A4DEC46C-C506-49A9-87BF-F9AABEC1B621}" ShortID="63520876">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="48"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="48"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="48"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -300,6 +401,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="049-C#" ID="{0D4FA7AB-6751-4410-8D06-ADF58575883C}" ShortID="515187324">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="49"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="49"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="49"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -322,6 +430,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="050-D" ID="{A7FD4DF5-FDB2-4125-B07A-72015E834D1B}" ShortID="103753464">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="50"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="50"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="50"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -344,6 +459,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="051-D#" ID="{E5B8E914-0080-43BE-A3B5-BF3F505E1454}" ShortID="830816112">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="51"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="51"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="51"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -366,6 +488,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="052-E" ID="{36922C47-F362-4C76-8BA5-16CE8A4AE019}" ShortID="665272625">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="52"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="52"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="52"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -388,6 +517,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="053-F" ID="{CFECD1DB-875A-4403-8C8B-3E09B4A47028}" ShortID="488605158">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="53"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="53"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="53"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -410,6 +546,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="054-F#" ID="{CAF30A46-B182-469D-AC31-920D72734BF5}" ShortID="513863487">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="54"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="54"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="54"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -432,6 +575,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="055-G" ID="{21F1C2F5-BF74-4D6D-B4AA-59F9F6AD446B}" ShortID="992691405">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="55"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="55"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="55"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -454,6 +604,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="056-G#" ID="{8E49F6B9-FA3B-4821-8519-124FCC78A1E6}" ShortID="507796239">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="56"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="56"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="56"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -476,6 +633,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="057-A" ID="{21D10D7E-C18D-40AA-962B-29D24B98895D}" ShortID="996051183">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="57"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="57"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="57"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -498,6 +662,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="058-A#" ID="{1E404172-1F82-4700-93FA-BC89BF128B48}" ShortID="496610055">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="58"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="58"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="58"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -520,6 +691,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="059-B" ID="{639136EF-8632-4A76-A687-359C1D35C169}" ShortID="873360464">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="59"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="59"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="59"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -542,6 +720,12 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="060-C" ID="{2B614972-016D-49C3-AF20-D98B9F4A50CB}" ShortID="706550844">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="60"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="60"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -552,6 +736,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="060-C" ID="{A68C3118-AFC7-4E9B-8335-C5DD661E4983}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.573522331154684"/>
+										<Property Name="LoopEnd" Type="Real64" Value="4.97787972040668"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Principal8\060-C.wav</AudioFile>
 									<MediaIDList>
@@ -564,6 +753,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="061-C#" ID="{20A938F7-8233-41E7-901F-72723341C926}" ShortID="173294943">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="61"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="61"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="61"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -586,6 +782,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="062-D" ID="{B84F5EC4-DC91-42E7-9674-774B8A9A580B}" ShortID="986821959">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="62"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="62"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="62"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -608,6 +811,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="063-D#" ID="{C4E57407-4755-47D0-BCC1-F061B1F6B76B}" ShortID="688596996">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="63"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="63"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="63"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -630,6 +840,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="064-E" ID="{7A286FC5-56A6-4D6E-9122-24C8E00FAFFC}" ShortID="288971012">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="64"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="64"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="64"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -652,6 +869,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="065-F" ID="{B444E4CD-BD0A-4E11-803B-9AC49E31A25E}" ShortID="172147394">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="65"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="65"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="65"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -674,6 +898,14 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="066-F#" ID="{05EFDD23-B43D-4B89-AD62-4535DB122F21}" ShortID="989614777">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="66"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="66"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="66"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -684,6 +916,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="066-F#" ID="{B2C5E5B3-199A-4533-82A9-D1B8E317DEF3}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="500"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.00003503984086"/>
+										<Property Name="LoopEnd" Type="Real64" Value="5.03213795488329"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Principal8\066-F#.wav</AudioFile>
 									<MediaIDList>
@@ -696,6 +935,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="067-G" ID="{023BAC01-3E9D-4AEE-A9AC-53AF9E23425D}" ShortID="402914100">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="67"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="67"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="67"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -718,6 +964,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="068-G#" ID="{D955ABF4-9D63-4E72-A872-C9EC030FA9A4}" ShortID="234331349">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="68"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="68"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="68"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -740,6 +993,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="069-A" ID="{FA9B22E0-347E-4D79-BFC5-8A40CA80763B}" ShortID="755256374">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="69"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="69"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="69"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -762,6 +1022,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="070-A#" ID="{02E7B9DD-E502-4F41-AF0C-469D7ACAB275}" ShortID="291392092">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="70"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="70"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="70"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -784,6 +1051,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="071-B" ID="{BEF7B538-BE2F-48A3-A2F5-AB03E78541CE}" ShortID="328932651">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="71"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="71"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="71"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -806,6 +1080,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="072-C" ID="{FE38DFCD-F5FA-40E5-977E-E1515526EAA9}" ShortID="1017344069">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="72"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="72"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="72"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -828,6 +1109,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="073-C#" ID="{8E6F120C-27D0-4DA9-AEAA-BFCAC775AF4A}" ShortID="70790962">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="73"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="73"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="73"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -850,6 +1138,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="074-D" ID="{E7EF2B79-06DB-4539-881E-F8B496E4FC91}" ShortID="440502525">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="74"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="74"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="74"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -872,6 +1167,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="075-D#" ID="{22CC5192-3E14-46C8-9421-75A46C768220}" ShortID="635457530">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="75"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="75"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="75"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -894,6 +1196,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="076-E" ID="{1F1343FF-B950-489A-A72B-B8FD95D3F62B}" ShortID="15885748">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="76"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="76"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="76"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -916,6 +1225,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="077-F" ID="{A1D4DC7D-C7A6-43CD-BEF0-A2FE0A3B782B}" ShortID="36706891">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="77"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="77"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="77"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -938,6 +1254,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="078-F#" ID="{8C6FC920-8FCF-4104-AE22-C41F753D0695}" ShortID="576910492">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="78"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="78"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="78"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -960,6 +1283,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="079-G" ID="{5B648DCA-D99C-4851-89CC-91C11F17B1F8}" ShortID="967529408">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="79"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="79"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="79"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -982,6 +1312,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="080-G#" ID="{A36AD234-0A0C-458C-AC22-4B41FDF26787}" ShortID="22483070">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="80"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="80"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="80"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1004,6 +1341,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="081-A" ID="{58DCB21C-EE8E-498D-B074-42310741BD67}" ShortID="85325576">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="81"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="81"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="81"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1026,6 +1370,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="082-A#" ID="{1CDBA874-A75A-4674-A4C9-FC792C2E7364}" ShortID="598549811">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="82"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="82"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="82"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1048,6 +1399,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="083-B" ID="{2D25454D-2FB4-44D7-A19B-06DE1E912394}" ShortID="154320782">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="83"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="83"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="83"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1070,6 +1428,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="084-C" ID="{36A766A1-A28E-4E58-A47C-E6B0535CDFC5}" ShortID="355753807">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="84"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="84"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="84"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1092,6 +1457,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="085-C#" ID="{502C5BB7-8B02-4770-9411-ECB974C3076E}" ShortID="214465355">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="85"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="85"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="85"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1114,6 +1486,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="086-D" ID="{2EA353A9-16C4-4C66-B1DE-C398B875C54B}" ShortID="419896279">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="86"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="86"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="86"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1136,6 +1515,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="087-D#" ID="{8F2784C6-C2B5-4D0C-A4C5-A93E7238D2B5}" ShortID="878831362">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="87"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="87"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="87"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1158,6 +1544,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="088-E" ID="{42664A2F-5050-41D7-A9F6-3BF9EB465E36}" ShortID="106387826">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="88"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="88"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="88"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1180,6 +1573,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="089-F" ID="{0D8EBB19-7F89-42D3-96BF-5EEA71E3C232}" ShortID="419974570">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="89"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="89"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="89"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1202,6 +1602,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="090-F#" ID="{33948F72-F3D4-40FD-B10F-94D8B52705F1}" ShortID="125833225">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="90"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="90"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="90"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1224,6 +1631,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="091-G" ID="{5B7572AE-9C96-4C48-849D-AC2631DFCB83}" ShortID="560083577">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="91"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="91"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="91"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1246,6 +1660,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="092-G#" ID="{3CC95A8A-461F-40E5-B91B-A644327710B8}" ShortID="56429970">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="92"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="92"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="92"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1268,6 +1689,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="093-A" ID="{49EF45CB-338A-40DC-B556-D762EFA06CAA}" ShortID="655740059">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="93"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="93"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="93"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1290,6 +1718,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="094-A#" ID="{ADDEB078-B11E-4D83-A7BA-C52D472EFF77}" ShortID="278087174">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="94"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="94"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="94"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1312,6 +1747,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="095-B" ID="{9375333F-9639-464A-95DE-A6DB983529F0}" ShortID="493775421">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="95"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="95"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="95"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -1334,6 +1776,12 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="096-C" ID="{199D1148-BE80-4FA3-A9B4-D38504C6277D}" ShortID="498288915">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="96"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="96"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
