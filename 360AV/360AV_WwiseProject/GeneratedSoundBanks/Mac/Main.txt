@@ -5,62 +5,123 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	39625985	087-D#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\087-D#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\087-D#		576088
 	43614274	096-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\096-C_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\096-C		1152080
 	51140825	061-C#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\061-C#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\061-C#		1152084
+	66786614	077-F	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\077-F_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\077-F		775140
+	66976605	054-F#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\054-F#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\054-F#		1171592
 	86287456	038-D	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\038-D_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\038-D		1512076
+	86584041	078-F#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\078-F#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\078-F#		833304
+	87274907	057-A	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\057-A_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\057-A		952416
+	99002994	063-D#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\063-D#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\063-D#		968232
+	101862999	093-A	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\093-A_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\093-A		597564
 	112543227	073-C#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\073-C#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\073-C#		1080080
+	125729797	083-B	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\083-B_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\083-B		779700
 	131143198	072-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\072-C_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\072-C		1440080
 	145664210	065-F	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\065-F_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\065-F		1080080
+	156505572	088-E	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\088-E_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\088-E		750668
+	158124562	092-G#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\092-G#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\092-G#		604160
+	181918768	066-F#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\066-F#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\066-F#		885260
+	183811114	087-D#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\087-D#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\087-D#		763440
+	186972831	082-A#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\082-A#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\082-A#		736944
+	187057172	059-B	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\059-B_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\059-B		1032792
+	196108244	041-F	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\041-F_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\041-F		1049400
+	201853996	053-F	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\053-F_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\053-F		1165820
+	204684076	060-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\060-C_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\060-C		962756
+	209683309	091-G	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\091-G_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\091-G		861652
+	212510521	067-G	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\067-G_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\067-G		848048
 	213440143	051-D#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\051-D#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\051-D#		2016068
 	216198337	092-G#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\092-G#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\092-G#		648088
+	233225984	076-E	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\076-E_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\076-E		910620
+	234697865	094-A#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\094-A#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\094-A#		585216
+	235532927	038-D	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\038-D_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\038-D		1023484
+	239538286	065-F	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\065-F_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\065-F		931608
+	256175455	047-B	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\047-B_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\047-B		955588
 	259144161	059-B	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\059-B_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\059-B		864088
 	265187159	053-F	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\053-F_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\053-F		1517432
+	266323062	044-G#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\044-G#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\044-G#		1092792
+	273363752	084-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\084-C_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\084-C		731560
+	285268657	048-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\048-C_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\048-C		1144800
 	286777141	058-A#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\058-A#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\058-A#		1530544
-	303114001	036-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\036-C_2D083FFA.wem		\Actor-Mixer Hierarchy\Organ\Principal8\036-C		1440128
+	303114001	036-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\036-C_682D6835.wem		\Actor-Mixer Hierarchy\Organ\Principal8\036-C		1440128
+	324728212	095-B	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\095-B_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\095-B		620496
 	335327089	085-C#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\085-C#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\085-C#		864088
 	340342448	064-E	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\064-E_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\064-E		1152084
+	345841263	070-A#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\070-A#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\070-A#		1021300
 	346578369	090-F#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\090-F#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\090-F#		1296080
+	349764901	069-A	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\069-A_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\069-A		849268
 	360511338	071-B	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\071-B_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\071-B		1080080
+	380167558	040-E	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\040-E_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\040-E		1001724
+	383685335	051-D#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\051-D#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\051-D#		1090812
+	385897418	037-C#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\037-C#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\037-C#		1179080
+	387315986	074-D	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\074-D_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\074-D		811256
 	396050894	095-B	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\095-B_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\095-B		1440076
 	402989184	060-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\060-C_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\060-C		1296080
 	419559830	041-F	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\041-F_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\041-F		1428684
 	442472184	075-D#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\075-D#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\075-D#		1440080
 	449904650	081-A	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\081-A_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\081-A		1080080
+	457310426	062-D	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\062-D_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\062-D		961256
 	459956898	039-D#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\039-D#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\039-D#		1293156
 	460442983	068-G#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\068-G#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\068-G#		1512076
 	464901353	069-A	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\069-A_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\069-A		1152084
 	470474439	080-G#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\080-G#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\080-G#		1440080
 	472422728	078-F#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\078-F#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\078-F#		648088
 	472813565	049-C#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\049-C#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\049-C#		1440076
+	492389214	068-G#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\068-G#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\068-G#		910572
+	494295424	045-A	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\045-A_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\045-A		1087232
 	498091354	054-F#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\054-F#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\054-F#		2016068
+	501596884	071-B	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\071-B_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\071-B		946844
+	506101762	090-F#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\090-F#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\090-F#		762360
 	507252946	042-F#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\042-F#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\042-F#		1562328
 	520117515	086-D	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\086-D_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\086-D		1080080
+	522209224	080-G#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\080-G#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\080-G#		704388
+	536427882	056-G#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\056-G#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\056-G#		1033816
 	548969372	043-G	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\043-G_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\043-G		1152084
 	553112629	093-A	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\093-A_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\093-A		576088
 	564167744	062-D	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\062-D_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\062-D		1080080
 	592303247	044-G#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\044-G#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\044-G#		1487624
 	607745889	074-D	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\074-D_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\074-D		1440080
+	617880795	081-A	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\081-A_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\081-A		763032
 	627831608	055-G	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\055-G_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\055-G		1152084
 	641094467	079-G	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\079-G_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\079-G		576088
 	654904936	047-B	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\047-B_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\047-B		1296080
-	682413394	066-F#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\066-F#_E017A78C.wem		\Actor-Mixer Hierarchy\Organ\Principal8\066-F#		1501452
+	659689743	036-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\036-C_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\036-C		1139472
+	682413394	066-F#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\066-F#_847411D4.wem		\Actor-Mixer Hierarchy\Organ\Principal8\066-F#		1501452
 	694919857	084-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\084-C_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\084-C		864088
 	694970331	076-E	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\076-E_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\076-E		648088
+	738563486	089-F	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\089-F_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\089-F		782188
 	759729818	037-C#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\037-C#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\037-C#		1512072
+	766607290	058-A#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\058-A#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\058-A#		902852
 	768484244	083-B	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\083-B_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\083-B		1080080
+	770009962	085-C#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\085-C#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\085-C#		664080
+	775148193	064-E	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\064-E_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\064-E		887780
+	779136614	073-C#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\073-C#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\073-C#		907924
 	800055448	070-A#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\070-A#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\070-A#		1440080
 	801578213	067-G	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\067-G_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\067-G		1152084
 	811945688	091-G	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\091-G_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\091-G		1440080
+	824913669	086-D	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\086-D_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\086-D		719092
 	850895212	082-A#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\082-A#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\082-A#		648088
+	857558672	042-F#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\042-F#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\042-F#		1021172
+	864871820	050-D	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\050-D_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\050-D		994196
+	868687252	055-G	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\055-G_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\055-G		1157152
 	868995851	048-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\048-C_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\048-C		1392468
+	869131241	046-A#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\046-A#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\046-A#		968516
+	869612519	079-G	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\079-G_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\079-G		731772
 	878248129	057-A	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\057-A_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\057-A		1440080
+	883794148	052-E	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\052-E_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\052-E		1321412
 	907553478	052-E	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\052-E_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\052-E		864084
 	911875488	056-G#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\056-G#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\056-G#		648088
 	930523464	077-F	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\077-F_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\077-F		1152084
+	935446981	039-D#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\039-D#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\039-D#		1159636
 	946869455	089-F	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\089-F_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\089-F		1152084
+	952622173	096-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\096-C_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\096-C		592740
 	961536390	045-A	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\045-A_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\045-A		1460020
+	978205321	072-C	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\072-C_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\072-C		820600
 	1001435022	063-D#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\063-D#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\063-D#		1512076
+	1002319023	061-C#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\061-C#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\061-C#		989920
 	1004883074	088-E	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\088-E_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\088-E		576088
 	1029801042	040-E	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\040-E_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\040-E		1411220
+	1053582580	043-G	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\043-G_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\043-G		1116632
 	1053837084	046-A#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\046-A#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\046-A#		1080080
+	1061598828	075-D#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\075-D#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\075-D#		844700
+	1067536391	049-C#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Flute4\049-C#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Flute4\049-C#		1207944
 	1067545004	094-A#	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\094-A#_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\094-A#		1152080
 	1070516992	050-D	D:\git\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\050-D_818F3B66.wem		\Actor-Mixer Hierarchy\Organ\Principal8\050-D		1296080
 

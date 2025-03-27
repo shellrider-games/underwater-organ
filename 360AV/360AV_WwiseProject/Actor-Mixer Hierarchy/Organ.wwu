@@ -1805,6 +1805,1790 @@
 						</Sound>
 					</ChildrenList>
 				</BlendContainer>
+				<BlendContainer Name="Flute4" ID="{4FBDD723-ABBE-466D-AF80-11C76BEA07CA}" ShortID="576156411">
+					<PropertyList>
+						<Property Name="BlendBehavior" Type="int16" Value="1"/>
+						<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+						<Property Name="MidiBreakOnNoteOff" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="036-C" ID="{E788F0F4-8E53-44D6-843C-F725DB5BCC6A}" ShortID="78879120">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="36"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="36"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="036-C" ID="{1905B35E-607E-4A34-B16D-5DA8FC5A2AF5}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\036-C.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="659689743"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="036-C" ID="{1905B35E-607E-4A34-B16D-5DA8FC5A2AF5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="037-C#" ID="{309FEA7A-F340-4B20-B8CA-0686DECB3278}" ShortID="89529415">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="37"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="37"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="37"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="037-C#" ID="{C7488A23-B98A-4EF6-AC6B-E51B1BFB1FFA}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\037-C#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="385897418"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="037-C#" ID="{C7488A23-B98A-4EF6-AC6B-E51B1BFB1FFA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="038-D" ID="{2BCE90F5-ACA7-46EE-95B1-FBEDE5D1A82B}" ShortID="796472870">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="38"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="38"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="38"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="038-D" ID="{11D6445A-8C84-4940-ACCE-5D0493212FFF}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\038-D.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="235532927"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="038-D" ID="{11D6445A-8C84-4940-ACCE-5D0493212FFF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="039-D#" ID="{A2B30752-E978-4010-8DC2-4E6CC1CF5154}" ShortID="201972721">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="39"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="39"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="39"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="039-D#" ID="{4889AEF9-530C-417D-9CFE-0C4B73686B16}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\039-D#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="935446981"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="039-D#" ID="{4889AEF9-530C-417D-9CFE-0C4B73686B16}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="040-E" ID="{50EA47C4-70B7-4A7C-A8BB-3F3CF674D8BB}" ShortID="424380387">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="40"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="40"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="40"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="040-E" ID="{8C7C5FCC-396B-4C46-BE29-FED36AA95F7E}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\040-E.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="380167558"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="040-E" ID="{8C7C5FCC-396B-4C46-BE29-FED36AA95F7E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="041-F" ID="{EAC657A2-3019-4ECA-92D5-31C4FB2EA3EA}" ShortID="240388294">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="41"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="41"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="41"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="041-F" ID="{F4B31D8A-7BF3-4571-A00F-D6E8EEE08EBC}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\041-F.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="196108244"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="041-F" ID="{F4B31D8A-7BF3-4571-A00F-D6E8EEE08EBC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="042-F#" ID="{AC55AE1C-3296-4A5A-8C4B-6A83AB382C87}" ShortID="444363072">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="42"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="42"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="42"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="042-F#" ID="{72DC4C4B-4DEC-4B38-BB5C-3F52F3C34948}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\042-F#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="857558672"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="042-F#" ID="{72DC4C4B-4DEC-4B38-BB5C-3F52F3C34948}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="043-G" ID="{F0D960DD-6514-4A43-AFD2-AD0317CA036E}" ShortID="373656200">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="43"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="43"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="43"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="043-G" ID="{8C2F9BF2-DDBC-4619-9E85-6D125B0EDA11}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\043-G.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1053582580"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="043-G" ID="{8C2F9BF2-DDBC-4619-9E85-6D125B0EDA11}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="044-G#" ID="{47AD9AB3-C6F9-4C57-AB82-8D174BA71787}" ShortID="153678348">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="44"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="44"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="44"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="044-G#" ID="{01547767-D38B-4A06-89C1-74F8E4E279C1}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\044-G#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="266323062"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="044-G#" ID="{01547767-D38B-4A06-89C1-74F8E4E279C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="045-A" ID="{B50EDD00-B33A-48B5-8339-B4CA10519B7F}" ShortID="71713368">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="45"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="45"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="45"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="045-A" ID="{818FF023-2E54-412D-8992-A9591BCF0699}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\045-A.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="494295424"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="045-A" ID="{818FF023-2E54-412D-8992-A9591BCF0699}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="046-A#" ID="{5579C8CA-6526-4046-B25E-921612AA12ED}" ShortID="684369596">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="46"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="46"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="46"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="046-A#" ID="{5B7FAAA6-8685-4821-A17B-33E6BB97A7AE}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\046-A#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="869131241"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="046-A#" ID="{5B7FAAA6-8685-4821-A17B-33E6BB97A7AE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="047-B" ID="{DE2DBBB9-7F64-444F-A65C-8E6B6E8E9EF8}" ShortID="421138899">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="47"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="47"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="47"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="047-B" ID="{4907E315-185A-4957-B3D9-5D691B936F4E}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\047-B.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="256175455"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="047-B" ID="{4907E315-185A-4957-B3D9-5D691B936F4E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="048-C" ID="{4DBF6D84-9876-4D0B-822D-19357F64E9EC}" ShortID="260485080">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="48"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="48"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="48"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="048-C" ID="{7AB59E25-B3EF-49C6-ADD5-8F46017E5CDC}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\048-C.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="285268657"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="048-C" ID="{7AB59E25-B3EF-49C6-ADD5-8F46017E5CDC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="049-C#" ID="{B820ADAF-9AE1-4982-AFBF-D05834796EF3}" ShortID="190864700">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="49"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="49"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="49"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="049-C#" ID="{2F57DB12-C8D4-4B7A-BDEF-81C17A526B0B}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\049-C#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1067536391"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="049-C#" ID="{2F57DB12-C8D4-4B7A-BDEF-81C17A526B0B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="050-D" ID="{2D5B41C7-12FB-45D6-89F1-5D749B7B5FFD}" ShortID="387179803">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="50"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="50"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="50"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="050-D" ID="{264D76AD-1705-4946-8382-D53899C2EEF0}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\050-D.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="864871820"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="050-D" ID="{264D76AD-1705-4946-8382-D53899C2EEF0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="051-D#" ID="{DBD843A5-F605-45DB-A49F-9A0391A5E903}" ShortID="589783500">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="51"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="51"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="51"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="051-D#" ID="{AC8BB1CA-A901-446B-9532-2C2B9332912F}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\051-D#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="383685335"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="051-D#" ID="{AC8BB1CA-A901-446B-9532-2C2B9332912F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="052-E" ID="{5C6B551F-AA37-46DC-888C-D0880BB0856F}" ShortID="1037540962">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="52"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="52"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="52"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="052-E" ID="{E33D7528-784E-49AE-A301-5A15990D9F22}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\052-E.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="883794148"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="052-E" ID="{E33D7528-784E-49AE-A301-5A15990D9F22}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="053-F" ID="{BF6A3C2F-0071-41EC-9818-914AD2CB73A6}" ShortID="760430121">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="53"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="53"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="53"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="053-F" ID="{69F1F217-2115-42AC-A76E-EAC263BE43D9}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\053-F.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="201853996"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="053-F" ID="{69F1F217-2115-42AC-A76E-EAC263BE43D9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="054-F#" ID="{31852D55-D1A1-4E90-B6DB-FA014BC56267}" ShortID="875988617">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="54"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="54"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="54"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="054-F#" ID="{8A0DA12D-BC05-4D56-8E4A-D7FCC66B8215}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\054-F#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="66976605"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="054-F#" ID="{8A0DA12D-BC05-4D56-8E4A-D7FCC66B8215}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="055-G" ID="{C07A8D15-6805-4873-A586-29EBA2490193}" ShortID="169892995">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="55"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="55"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="55"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="055-G" ID="{131F27E4-B7D2-4677-855F-57AD11547774}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\055-G.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="868687252"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="055-G" ID="{131F27E4-B7D2-4677-855F-57AD11547774}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="056-G#" ID="{9A29C45F-16A2-4A1B-8FB5-7470DA478568}" ShortID="131588741">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="56"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="56"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="56"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="056-G#" ID="{90750B7E-AD6F-477E-A6A0-266EC26DDF6E}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\056-G#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="536427882"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="056-G#" ID="{90750B7E-AD6F-477E-A6A0-266EC26DDF6E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="057-A" ID="{DF3ABA96-FBE7-4E2C-9F9A-E6E66A419807}" ShortID="176889088">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="57"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="57"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="57"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="057-A" ID="{7516B9CD-E38D-4F50-A423-D5085E48A82B}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\057-A.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="87274907"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="057-A" ID="{7516B9CD-E38D-4F50-A423-D5085E48A82B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="058-A#" ID="{44E42CF7-6F43-4358-B077-F0FB7A3F0936}" ShortID="426311293">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="58"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="58"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="58"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="058-A#" ID="{6589F0FC-8DA8-439F-8C43-B5DF47CE1967}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\058-A#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="766607290"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="058-A#" ID="{6589F0FC-8DA8-439F-8C43-B5DF47CE1967}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="059-B" ID="{BB1109F5-7DE8-4F42-8906-3DEB69D579BE}" ShortID="70860267">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="59"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="59"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="59"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="059-B" ID="{1FEF7E69-5CBB-470E-B788-37863A8B0FEF}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\059-B.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="187057172"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="059-B" ID="{1FEF7E69-5CBB-470E-B788-37863A8B0FEF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="060-C" ID="{948081D5-45CB-4297-B730-461465A14831}" ShortID="204855665">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="60"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="60"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="060-C" ID="{B56F65A5-E9A7-4702-BBFB-B9FDBEA5092E}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\060-C.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="204684076"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="060-C" ID="{B56F65A5-E9A7-4702-BBFB-B9FDBEA5092E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="061-C#" ID="{5CAFB4BD-6500-4A7B-B04D-92A6C84DC532}" ShortID="857379820">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="61"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="61"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="61"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="061-C#" ID="{C2E577DF-131F-4541-942C-6B8772AD8375}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\061-C#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1002319023"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="061-C#" ID="{C2E577DF-131F-4541-942C-6B8772AD8375}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="062-D" ID="{A3A06E44-F1A7-4CD1-A0A4-AEDD9E91820E}" ShortID="759273356">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="62"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="62"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="62"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="062-D" ID="{7D4B8905-D431-4CE9-972B-EF7DD5E57F8A}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\062-D.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="457310426"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="062-D" ID="{7D4B8905-D431-4CE9-972B-EF7DD5E57F8A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="063-D#" ID="{3704DD1F-273C-43F3-97A9-33413DCD97D4}" ShortID="571403760">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="63"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="63"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="63"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="063-D#" ID="{2508BE55-8298-44AA-AB06-6D20BE9B1594}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\063-D#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="99002994"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="063-D#" ID="{2508BE55-8298-44AA-AB06-6D20BE9B1594}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="064-E" ID="{5CAE393B-3817-4E21-B8E5-C8EB25C3834B}" ShortID="233976667">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="64"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="64"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="64"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="064-E" ID="{C7D85FB5-A080-468D-9A11-820D5AD69826}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\064-E.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="775148193"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="064-E" ID="{C7D85FB5-A080-468D-9A11-820D5AD69826}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="065-F" ID="{27A6F33F-BE4E-4CD2-8E70-91F3E1F03615}" ShortID="188825494">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="65"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="65"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="65"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="065-F" ID="{AE5FD5F1-DA4A-4EF1-9DB8-6AE4B86FD4EE}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\065-F.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="239538286"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="065-F" ID="{AE5FD5F1-DA4A-4EF1-9DB8-6AE4B86FD4EE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="066-F#" ID="{85EDE781-0F3A-483C-9211-32CEBA25FC54}" ShortID="853076733">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="66"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="66"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="66"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="066-F#" ID="{57EFB19E-6F05-4E56-8449-8838A00A5B1B}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\066-F#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="181918768"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="066-F#" ID="{57EFB19E-6F05-4E56-8449-8838A00A5B1B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="067-G" ID="{2CE35567-1110-4239-A64C-1FD6E8B0C0DA}" ShortID="950871460">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="67"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="67"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="67"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="067-G" ID="{7C072BAC-FA97-4564-9BEB-E39D1490489A}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\067-G.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="212510521"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="067-G" ID="{7C072BAC-FA97-4564-9BEB-E39D1490489A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="068-G#" ID="{8601A86C-DDFE-4A39-B2E7-0867D05B2531}" ShortID="516209991">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="68"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="68"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="68"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="068-G#" ID="{ACCCFD3C-724B-4B88-84C1-45E9311F75DE}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\068-G#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="492389214"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="068-G#" ID="{ACCCFD3C-724B-4B88-84C1-45E9311F75DE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="069-A" ID="{9CBBB18D-8889-4621-AE15-871BEE44155A}" ShortID="684835681">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="69"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="69"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="69"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="069-A" ID="{4AF2052B-2966-416E-B11A-45F25CFECF90}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\069-A.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="349764901"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="069-A" ID="{4AF2052B-2966-416E-B11A-45F25CFECF90}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="070-A#" ID="{C976553B-BCE0-42C4-B172-542C420480D2}" ShortID="554168867">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="70"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="70"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="70"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="070-A#" ID="{DEB87B37-9652-427F-A2EC-BEAFC6CEFE63}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\070-A#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="345841263"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="070-A#" ID="{DEB87B37-9652-427F-A2EC-BEAFC6CEFE63}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="071-B" ID="{7BF415A2-8D32-4098-8C32-72BADC5FD423}" ShortID="264996621">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="71"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="71"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="71"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="071-B" ID="{FE7AD860-E2BB-40B6-B5C7-B3A21AA146B7}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\071-B.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="501596884"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="071-B" ID="{FE7AD860-E2BB-40B6-B5C7-B3A21AA146B7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="072-C" ID="{316D1E57-2DF2-41A7-BFC0-7407D1580A2B}" ShortID="365328831">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="72"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="72"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="72"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="072-C" ID="{5EF009E3-35E1-43B4-9EFD-C201545F6F00}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\072-C.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="978205321"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="072-C" ID="{5EF009E3-35E1-43B4-9EFD-C201545F6F00}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="073-C#" ID="{CB27D687-260E-4AE0-864B-7B76F461F2C7}" ShortID="628745187">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="73"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="73"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="73"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="073-C#" ID="{2185779B-2EC2-4703-AC9D-E90028A99CC8}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\073-C#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="779136614"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="073-C#" ID="{2185779B-2EC2-4703-AC9D-E90028A99CC8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="074-D" ID="{DA7C2314-54DE-4B04-9AAD-D106E5C9CD44}" ShortID="784177920">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="74"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="74"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="74"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="074-D" ID="{F0E4BF55-F7F7-43CC-B350-8C115C36CFD4}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\074-D.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="387315986"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="074-D" ID="{F0E4BF55-F7F7-43CC-B350-8C115C36CFD4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="075-D#" ID="{DA9D562C-B1AD-4C06-BBDB-C5B8F9D416E8}" ShortID="222180120">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="75"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="75"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="75"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="075-D#" ID="{9898B8D7-876A-404F-8549-8B6E09287106}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\075-D#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1061598828"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="075-D#" ID="{9898B8D7-876A-404F-8549-8B6E09287106}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="076-E" ID="{10D5DDC1-3CB0-4DE6-A651-08275FFDF0DB}" ShortID="282104517">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="76"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="76"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="76"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="076-E" ID="{ED464C41-AD15-4A20-BAAA-1E6733E75465}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\076-E.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="233225984"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="076-E" ID="{ED464C41-AD15-4A20-BAAA-1E6733E75465}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="077-F" ID="{CFCF2C91-DDFC-4180-BF0C-109EF9EAFD71}" ShortID="773624015">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="77"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="77"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="77"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="077-F" ID="{FE4224CE-D413-4EAD-935A-8A26152AB645}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\077-F.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="66786614"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="077-F" ID="{FE4224CE-D413-4EAD-935A-8A26152AB645}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="078-F#" ID="{46527C69-EAC8-4F49-B449-EB1D505552FC}" ShortID="365991830">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="78"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="78"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="78"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="078-F#" ID="{7A450C6B-EF61-4B7F-BB61-591804927F1A}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\078-F#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="86584041"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="078-F#" ID="{7A450C6B-EF61-4B7F-BB61-591804927F1A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="079-G" ID="{D3B809D2-5B29-4893-A4F6-C517872AD1E8}" ShortID="1014362849">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="79"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="79"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="79"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="079-G" ID="{430E98F9-815D-4DF2-BC31-C3C66C819F6A}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\079-G.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="869612519"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="079-G" ID="{430E98F9-815D-4DF2-BC31-C3C66C819F6A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="080-G#" ID="{939631DF-87BF-4D8B-9ECA-B96C2172DDB6}" ShortID="1065175656">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="80"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="80"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="80"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="080-G#" ID="{BEFBE3E4-CC50-412A-86B5-7E956189417C}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\080-G#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="522209224"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="080-G#" ID="{BEFBE3E4-CC50-412A-86B5-7E956189417C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="081-A" ID="{624B6272-9723-4671-A3B0-B80E95ED9ED9}" ShortID="8036691">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="81"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="81"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="81"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="081-A" ID="{62EAACB8-7223-4B48-94E8-95307CF1CDDC}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\081-A.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="617880795"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="081-A" ID="{62EAACB8-7223-4B48-94E8-95307CF1CDDC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="082-A#" ID="{9384BC1D-14AB-4A29-99C8-A075A96B4C60}" ShortID="989882055">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="82"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="82"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="82"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="082-A#" ID="{BD95BA5B-3FC8-4B18-93AB-C818F48C8F52}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\082-A#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="186972831"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="082-A#" ID="{BD95BA5B-3FC8-4B18-93AB-C818F48C8F52}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="083-B" ID="{E67BC0C9-3342-43DA-8CD6-016B7C3D878A}" ShortID="974624164">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="83"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="83"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="83"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="083-B" ID="{FB535794-5AE0-40F0-BB46-E5539B7A6358}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\083-B.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="125729797"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="083-B" ID="{FB535794-5AE0-40F0-BB46-E5539B7A6358}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="084-C" ID="{A9D30866-CAA7-4556-8C2B-7230F47C8F87}" ShortID="84909789">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="84"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="84"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="84"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="084-C" ID="{F75E8A37-A6A9-418E-BA1D-05F4F29BF062}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\084-C.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="273363752"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="084-C" ID="{F75E8A37-A6A9-418E-BA1D-05F4F29BF062}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="085-C#" ID="{F2B96F60-9AAC-408D-ABB8-68C76D1F8929}" ShortID="923310818">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="85"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="85"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="85"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="085-C#" ID="{DE51A398-8565-4D70-8A4F-6010ABF8AA9D}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\085-C#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="770009962"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="085-C#" ID="{DE51A398-8565-4D70-8A4F-6010ABF8AA9D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="086-D" ID="{5BC6E5EC-4BC3-46A0-B65B-8C213A42DAF4}" ShortID="685916975">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="86"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="86"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="86"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="086-D" ID="{976108CB-1807-4895-BC21-340AB500D808}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\086-D.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="824913669"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="086-D" ID="{976108CB-1807-4895-BC21-340AB500D808}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="087-D#" ID="{E082CAD7-C4B8-430B-9AD2-51D073729354}" ShortID="821481313">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="87"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="87"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="87"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="087-D#" ID="{1E30069A-3313-4C0B-8160-71CD199C6B86}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\087-D#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="183811114"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="087-D#" ID="{1E30069A-3313-4C0B-8160-71CD199C6B86}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="088-E" ID="{F9C5BD56-97D7-4125-9FAF-E64336517354}" ShortID="830365988">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="88"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="88"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="88"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="088-E" ID="{F2FA7C9D-7317-48DE-8AB8-4F19269A5F46}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\088-E.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="156505572"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="088-E" ID="{F2FA7C9D-7317-48DE-8AB8-4F19269A5F46}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="089-F" ID="{CCF11804-E06C-433D-A9E2-3772E229EB69}" ShortID="824714081">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="89"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="89"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="89"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="089-F" ID="{EF042A3F-AD8C-4F96-8B2A-892C4908586D}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\089-F.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="738563486"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="089-F" ID="{EF042A3F-AD8C-4F96-8B2A-892C4908586D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="090-F#" ID="{397D2B84-0571-41F7-B0B3-97D66591A0DD}" ShortID="672911912">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="90"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="90"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="90"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="090-F#" ID="{0A4ACEE7-CAE1-4C27-948E-2189E78DFEAF}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\090-F#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="506101762"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="090-F#" ID="{0A4ACEE7-CAE1-4C27-948E-2189E78DFEAF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="091-G" ID="{397CC63E-6E20-42B6-AAD4-2BADFA8C132A}" ShortID="649601509">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="91"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="91"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="91"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="091-G" ID="{78180CB2-2A48-4FDE-828C-DDA27C1527CE}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\091-G.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="209683309"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="091-G" ID="{78180CB2-2A48-4FDE-828C-DDA27C1527CE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="092-G#" ID="{E4423F22-3D7F-4245-B7E9-B2BB9D2CE3FD}" ShortID="836716103">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="92"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="92"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="92"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="092-G#" ID="{3A67A40C-1947-48FA-93E1-0674E81AB8E0}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\092-G#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="158124562"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="092-G#" ID="{3A67A40C-1947-48FA-93E1-0674E81AB8E0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="093-A" ID="{29FB2297-414D-4AF5-A6DA-71FA97F1BE80}" ShortID="288143245">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="93"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="93"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="93"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="093-A" ID="{9C00A165-A84A-47BF-B14B-0321627F773D}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\093-A.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="101862999"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="093-A" ID="{9C00A165-A84A-47BF-B14B-0321627F773D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="094-A#" ID="{8808B45D-D4AF-415F-B8AE-366CFA40D1C4}" ShortID="594125810">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="94"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="94"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="94"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="094-A#" ID="{8F415783-0FA6-4DCE-8E57-80C9C93955AA}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\094-A#.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="234697865"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="094-A#" ID="{8F415783-0FA6-4DCE-8E57-80C9C93955AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="095-B" ID="{3D17CC15-CB0D-4F3D-9D48-677A1F78DD54}" ShortID="867022933">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="95"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="95"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="95"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="095-B" ID="{64C437A2-684F-4133-96CB-3277CBD139CA}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\095-B.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="324728212"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="095-B" ID="{64C437A2-684F-4133-96CB-3277CBD139CA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="096-C" ID="{5C2CFDDF-9559-43DC-89E1-18CFEFBA15B7}" ShortID="306880286">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="96"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="96"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="96"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="096-C" ID="{F681A601-B015-4F0F-98E6-10E24F1C0B94}">
+									<Language>SFX</Language>
+									<AudioFile>Flute4\096-C.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="952622173"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="096-C" ID="{F681A601-B015-4F0F-98E6-10E24F1C0B94}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
