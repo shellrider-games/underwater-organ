@@ -3994,6 +3994,7 @@
 						<Sound Name="082-A#" ID="{9384BC1D-14AB-4A29-99C8-A075A96B4C60}" ShortID="989882055">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="82"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="82"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="82"/>
@@ -4009,6 +4010,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="082-A#" ID="{BD95BA5B-3FC8-4B18-93AB-C818F48C8F52}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="98.932"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.568783068783069"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.78931216931217"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\082-A#.wav</AudioFile>
 									<MediaIDList>
@@ -4023,6 +4031,7 @@
 						<Sound Name="083-B" ID="{E67BC0C9-3342-43DA-8CD6-016B7C3D878A}" ShortID="974624164">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="83"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="83"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="83"/>
@@ -4038,6 +4047,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="083-B" ID="{FB535794-5AE0-40F0-BB46-E5539B7A6358}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="162.825"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.00137358647163"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.92227772590518"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\083-B.wav</AudioFile>
 									<MediaIDList>
@@ -4052,6 +4068,7 @@
 						<Sound Name="084-C" ID="{A9D30866-CAA7-4556-8C2B-7230F47C8F87}" ShortID="84909789">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="84"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="84"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="84"/>
@@ -4067,6 +4084,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="084-C" ID="{F75E8A37-A6A9-418E-BA1D-05F4F29BF062}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="414.662"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.07956698728874"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.85475454379283"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\084-C.wav</AudioFile>
 									<MediaIDList>
@@ -4081,6 +4105,7 @@
 						<Sound Name="085-C#" ID="{F2B96F60-9AAC-408D-ABB8-68C76D1F8929}" ShortID="923310818">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="85"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="85"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="85"/>
@@ -4096,6 +4121,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="085-C#" ID="{DE51A398-8565-4D70-8A4F-6010ABF8AA9D}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="188.204"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.23829265039349"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.71440309457116"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\085-C#.wav</AudioFile>
 									<MediaIDList>
@@ -4110,6 +4142,7 @@
 						<Sound Name="086-D" ID="{5BC6E5EC-4BC3-46A0-B65B-8C213A42DAF4}" ShortID="685916975">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="86"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="86"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="86"/>
@@ -4125,6 +4158,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="086-D" ID="{976108CB-1807-4895-BC21-340AB500D808}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="139.44"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.790324080249384"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.77057430379559"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\086-D.wav</AudioFile>
 									<MediaIDList>
@@ -4139,6 +4179,7 @@
 						<Sound Name="087-D#" ID="{E082CAD7-C4B8-430B-9AD2-51D073729354}" ShortID="821481313">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="87"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="87"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="87"/>
@@ -4154,6 +4195,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="087-D#" ID="{1E30069A-3313-4C0B-8160-71CD199C6B86}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="193.592"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.23032412965186"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.88489795918367"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\087-D#.wav</AudioFile>
 									<MediaIDList>
@@ -4168,6 +4216,7 @@
 						<Sound Name="088-E" ID="{F9C5BD56-97D7-4125-9FAF-E64336517354}" ShortID="830365988">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="88"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="88"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="88"/>
@@ -4183,6 +4232,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="088-E" ID="{F2FA7C9D-7317-48DE-8AB8-4F19269A5F46}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="179.156"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.34415420489183"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.57243304729299"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\088-E.wav</AudioFile>
 									<MediaIDList>
@@ -4197,6 +4253,7 @@
 						<Sound Name="089-F" ID="{CCF11804-E06C-433D-A9E2-3772E229EB69}" ShortID="824714081">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="89"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="89"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="89"/>
@@ -4212,6 +4269,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="089-F" ID="{EF042A3F-AD8C-4F96-8B2A-892C4908586D}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="198.347"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.59378788552458"/>
+										<Property Name="LoopEnd" Type="Real64" Value="3.35178421986078"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\089-F.wav</AudioFile>
 									<MediaIDList>
@@ -4226,6 +4290,7 @@
 						<Sound Name="090-F#" ID="{397D2B84-0571-41F7-B0B3-97D66591A0DD}" ShortID="672911912">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="90"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="90"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="90"/>
@@ -4241,6 +4306,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="090-F#" ID="{0A4ACEE7-CAE1-4C27-948E-2189E78DFEAF}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="272.919"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.3274349739896"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.97966786714686"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\090-F#.wav</AudioFile>
 									<MediaIDList>
@@ -4255,6 +4327,7 @@
 						<Sound Name="091-G" ID="{397CC63E-6E20-42B6-AAD4-2BADFA8C132A}" ShortID="649601509">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="91"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="91"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="91"/>
@@ -4270,6 +4343,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="091-G" ID="{78180CB2-2A48-4FDE-828C-DDA27C1527CE}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="295.617"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.63890603154842"/>
+										<Property Name="LoopEnd" Type="Real64" Value="3.57529204274302"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\091-G.wav</AudioFile>
 									<MediaIDList>
@@ -4284,6 +4364,7 @@
 						<Sound Name="092-G#" ID="{E4423F22-3D7F-4245-B7E9-B2BB9D2CE3FD}" ShortID="836716103">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="92"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="92"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="92"/>
@@ -4299,6 +4380,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="092-G#" ID="{3A67A40C-1947-48FA-93E1-0674E81AB8E0}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="198.255"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.29067765377756"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.18221510826553"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\092-G#.wav</AudioFile>
 									<MediaIDList>
@@ -4313,6 +4401,7 @@
 						<Sound Name="093-A" ID="{29FB2297-414D-4AF5-A6DA-71FA97F1BE80}" ShortID="288143245">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="93"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="93"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="93"/>
@@ -4328,6 +4417,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="093-A" ID="{9C00A165-A84A-47BF-B14B-0321627F773D}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="205.003"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.32085886206334"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.05876884086968"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\093-A.wav</AudioFile>
 									<MediaIDList>
@@ -4342,6 +4438,7 @@
 						<Sound Name="094-A#" ID="{8808B45D-D4AF-415F-B8AE-366CFA40D1C4}" ShortID="594125810">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="94"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="94"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="94"/>
@@ -4357,6 +4454,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="094-A#" ID="{8F415783-0FA6-4DCE-8E57-80C9C93955AA}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="148.392"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.986430127606598"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.16436500526136"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\094-A#.wav</AudioFile>
 									<MediaIDList>
@@ -4371,6 +4475,7 @@
 						<Sound Name="095-B" ID="{3D17CC15-CB0D-4F3D-9D48-677A1F78DD54}" ShortID="867022933">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="95"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="95"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="95"/>
@@ -4386,6 +4491,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="095-B" ID="{64C437A2-684F-4133-96CB-3277CBD139CA}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="203.616"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.03824492760067"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.39064514694767"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\095-B.wav</AudioFile>
 									<MediaIDList>
@@ -4400,6 +4512,7 @@
 						<Sound Name="096-C" ID="{5C2CFDDF-9559-43DC-89E1-18CFEFBA15B7}" ShortID="306880286">
 							<PropertyList>
 								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MidiKeyFilterMax" Type="int32" Value="96"/>
 								<Property Name="MidiKeyFilterMin" Type="int32" Value="96"/>
 								<Property Name="MidiTrackingRootNote" Type="int32" Value="96"/>
@@ -4415,6 +4528,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="096-C" ID="{F681A601-B015-4F0F-98E6-10E24F1C0B94}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="291.76"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.78318868288056"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.11900115601796"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Flute4\096-C.wav</AudioFile>
 									<MediaIDList>
