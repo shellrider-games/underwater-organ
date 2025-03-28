@@ -313,6 +313,12 @@ MonoBehaviour:
   pressedRotation: 4
   releasedRotation: 0
   returnSpeed: 5
+  onKeyPressed:
+    m_PersistentCalls:
+      m_Calls: []
+  onKeyReleased:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &6871392325361688295 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c02130b47061c644886d62a7127f2edb,
