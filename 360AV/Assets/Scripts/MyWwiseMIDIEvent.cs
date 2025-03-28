@@ -5,7 +5,7 @@ using UnityEngine;
 public class MyWwiseMIDIEvent : MonoBehaviour
 {
     [SerializeField] private AK.Wwise.Event SynthEvent;
-    [SerializeField][Range(36,91)] private int note;
+    [SerializeField][Range(36,96)] private int note;
 
     public void PlayNote()
     {
