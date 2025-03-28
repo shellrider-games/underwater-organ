@@ -12041,71 +12041,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 819779637}
   m_PrefabAsset: {fileID: 0}
---- !u!850595691 &1746806156
-LightingSettings:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 6
-  m_GIWorkflowMode: 1
-  m_EnableBakedLightmaps: 1
-  m_EnableRealtimeLightmaps: 0
-  m_RealtimeEnvironmentLighting: 1
-  m_BounceScale: 1
-  m_AlbedoBoost: 1
-  m_IndirectOutputScale: 1
-  m_UsingShadowmask: 1
-  m_BakeBackend: 1
-  m_LightmapMaxSize: 1024
-  m_BakeResolution: 40
-  m_Padding: 2
-  m_LightmapCompression: 3
-  m_AO: 0
-  m_AOMaxDistance: 1
-  m_CompAOExponent: 1
-  m_CompAOExponentDirect: 0
-  m_ExtractAO: 0
-  m_MixedBakeMode: 2
-  m_LightmapsBakeMode: 1
-  m_FilterMode: 1
-  m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
-  m_ExportTrainingData: 0
-  m_TrainingDataDestination: TrainingData
-  m_RealtimeResolution: 2
-  m_ForceWhiteAlbedo: 0
-  m_ForceUpdates: 0
-  m_FinalGather: 0
-  m_FinalGatherRayCount: 256
-  m_FinalGatherFiltering: 1
-  m_PVRCulling: 1
-  m_PVRSampling: 1
-  m_PVRDirectSampleCount: 32
-  m_PVRSampleCount: 512
-  m_PVREnvironmentSampleCount: 256
-  m_PVREnvironmentReferencePointCount: 2048
-  m_LightProbeSampleCountMultiplier: 4
-  m_PVRBounces: 2
-  m_PVRMinBounces: 2
-  m_PVREnvironmentImportanceSampling: 1
-  m_PVRFilteringMode: 1
-  m_PVRDenoiserTypeDirect: 1
-  m_PVRDenoiserTypeIndirect: 1
-  m_PVRDenoiserTypeAO: 1
-  m_PVRFilterTypeDirect: 0
-  m_PVRFilterTypeIndirect: 0
-  m_PVRFilterTypeAO: 0
-  m_PVRFilteringGaussRadiusDirect: 1
-  m_PVRFilteringGaussRadiusIndirect: 5
-  m_PVRFilteringGaussRadiusAO: 2
-  m_PVRFilteringAtrousPositionSigmaDirect: 0.5
-  m_PVRFilteringAtrousPositionSigmaIndirect: 2
-  m_PVRFilteringAtrousPositionSigmaAO: 1
-  m_PVRTiledBaking: 0
-  m_NumRaysToShootPerTexel: -1
-  m_RespectSceneVisibilityWhenBakingGI: 0
---- !u!1 &1747967391
+--- !u!1 &1751220183
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12113,81 +12049,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1747967392}
-  - component: {fileID: 1747967394}
-  - component: {fileID: 1747967393}
+  - component: {fileID: 1751220185}
+  - component: {fileID: 1751220184}
   m_Layer: 0
-  m_Name: pipe_lo
+  m_Name: Midi_36_Event
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1747967392
+--- !u!114 &1751220184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751220183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ace4236578e794cad340ca8d53ea72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SynthEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d6a36bb25a13f9240989da00381b6bec,
+      type: 2}
+  note: 36
+--- !u!4 &1751220185
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1747967391}
+  m_GameObject: {fileID: 1751220183}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -0.2407, y: 0.0013998747, z: -0.24579999}
-  m_LocalScale: {x: 0.0743, y: 0.0743, z: 0.06524877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -19.22, y: 10.78, z: 10.51}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1038249582}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1747967393
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1747967391}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1dfe5ddb31d2cb740aef03d34605459f, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1747967394
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1747967391}
-  m_Mesh: {fileID: 8986410688021861547, guid: ba7342c8818907a408b4633408f355cf, type: 3}
 --- !u!1001 &1785000273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15081,6 +14984,76 @@ PrefabInstance:
       propertyPath: m_Name
       value: Manual
       objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyPressed.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyReleased.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1751220184}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1751220184}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayNote
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyReleased.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyReleased.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StopNote
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MyWwiseMIDIEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyReleased.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MyWwiseMIDIEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904299619691418722, guid: 7a703133d3adf804cac9c19836caad12,
+        type: 3}
+      propertyPath: onKeyReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5534080594271569221, guid: 7a703133d3adf804cac9c19836caad12,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -15180,9 +15153,4 @@ SceneRoots:
   - {fileID: 368171986}
   - {fileID: 922283634}
   - {fileID: 5482760339391690256}
-  - {fileID: 1494252254}
-  - {fileID: 1925946805}
-  - {fileID: 811769505}
-  - {fileID: 1996559527}
-  - {fileID: 598878231}
-  - {fileID: 531586118}
+  - {fileID: 1751220185}

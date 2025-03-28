@@ -1,12 +1,17 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.Events;
 
 public class PianoKey : MonoBehaviour
 {
     public float pressedRotation = -83f;
     public float releasedRotation = -90f;
     public float returnSpeed = 5f;
+
+    public UnityEvent onKeyPressed;
+    public UnityEvent onKeyReleased;
+    
     private bool isPressed = false;
+    
 
     public void PressKey()
     {
@@ -14,12 +19,14 @@ public class PianoKey : MonoBehaviour
         {
             transform.localRotation = Quaternion.Euler(pressedRotation, 0, 0);
             isPressed = true;
+            onKeyPressed.Invoke();
         }
     }
 
     public void ReleaseKey() 
     {
         isPressed = false;
+        onKeyReleased.Invoke();
     }
 
     void Update()
