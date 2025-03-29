@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{F500DBD5-45C0-4622-8103-EDA80312215A}">
 					<ObjectInclusionList>
+						<ObjectRef Name="StartAmbience" ID="{D2CF73A1-60B2-409C-8EED-50C884A48D2F}" WorkUnitID="{CFDC3A76-0A8F-4F77-9995-BB9FFFDB0144}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayOrgan" ID="{632B0B54-8165-434E-AFC4-5B28FF7F92BE}" WorkUnitID="{CFDC3A76-0A8F-4F77-9995-BB9FFFDB0144}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopAmbience" ID="{36D1603A-4E74-45D1-A345-70F5A6A53A9E}" WorkUnitID="{CFDC3A76-0A8F-4F77-9995-BB9FFFDB0144}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
