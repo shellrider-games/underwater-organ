@@ -3,6 +3,151 @@
 	<AudioObjects>
 		<WorkUnit Name="CthulhuVoicelines" ID="{186E6A33-9297-4ADE-AF17-1D0BCF28A789}" PersistMode="Standalone">
 			<ChildrenList>
+				<Sound Name="PlayThatAgain" ID="{851CD467-9D86-48C0-B026-02DED9789CD2}" ShortID="346168999">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PlayThatAgain" ID="{50D2717F-0511-4BD5-9D00-D30925721847}">
+							<Language>SFX</Language>
+							<AudioFile> PlayThatAgain.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="238391500"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PlayThatAgain" ID="{50D2717F-0511-4BD5-9D00-D30925721847}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Again" ID="{ADB14CAC-8ECD-47A5-A500-C262A0CF3483}" ShortID="333671480">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Again" ID="{D68D0EA9-D3DD-401B-9477-552B16EE9778}">
+							<Language>SFX</Language>
+							<AudioFile>Again.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="583801744"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Again" ID="{D68D0EA9-D3DD-401B-9477-552B16EE9778}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AMBUndwtr_Amb Underwater_PSE_BW-BD3HL_UubOL" ID="{37ADF9A4-8A40-4ACC-ADB1-E6D21824BF9F}" ShortID="808268033">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMBUndwtr_Amb Underwater_PSE_BW-BD3HL_UubOL" ID="{2F9641AF-1D00-4A80-B651-6AAB853BFAF1}">
+							<Language>SFX</Language>
+							<AudioFile>AMBUndwtr_Amb Underwater_PSE_BW-BD3HL_UubOL.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="851280590"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMBUndwtr_Amb Underwater_PSE_BW-BD3HL_UubOL" ID="{2F9641AF-1D00-4A80-B651-6AAB853BFAF1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BreaksOver" ID="{AC42194C-D595-471C-AB8E-9EBE3760D682}" ShortID="557295232">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BreaksOver" ID="{ABE16754-5D15-4C4E-8468-792B4BA7AEBE}">
+							<Language>SFX</Language>
+							<AudioFile>BreaksOver.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="287579341"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BreaksOver" ID="{ABE16754-5D15-4C4E-8468-792B4BA7AEBE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DoNotExpectToLeave" ID="{119593B3-0D22-495B-BF6C-7E6FA0DC0A0F}" ShortID="543718883">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DoNotExpectToLeave" ID="{1A99BEC5-E374-40FB-A416-AD6355423FF3}">
+							<Language>SFX</Language>
+							<AudioFile>DoNotExpectToLeave.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="941315583"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DoNotExpectToLeave" ID="{1A99BEC5-E374-40FB-A416-AD6355423FF3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 				<Sound Name="EnoughRest" ID="{A412B95B-297E-4CF6-BD06-DB7FBCA255CA}" ShortID="576552509">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -25,9 +170,13 @@
 						<ActiveSource Name="EnoughRest" ID="{3809544D-5012-42CB-AF8A-D3B5318CFECC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<RandomSequenceContainer Name="Positive" ID="{1472ACE8-F183-4C7D-A999-14090DDEC95D}" ShortID="854289102">
+				<Sound Name="EntertainMeNOW" ID="{4E05C250-5A81-4EFD-9799-5CA7E2E743FC}" ShortID="931866865">
 					<PropertyList>
-						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -38,125 +187,26 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Again" ID="{ADB14CAC-8ECD-47A5-A500-C262A0CF3483}" ShortID="333671480">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Again" ID="{D68D0EA9-D3DD-401B-9477-552B16EE9778}">
-									<Language>SFX</Language>
-									<AudioFile>Again.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="583801744"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Again" ID="{D68D0EA9-D3DD-401B-9477-552B16EE9778}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Good" ID="{8A8369AD-D11E-46E7-8317-9C4BA24E0DCD}" ShortID="77735062">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Good" ID="{C908DD26-020D-47CD-BB57-73A1953AB71E}">
-									<Language>SFX</Language>
-									<AudioFile>Good.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="493232185"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Good" ID="{C908DD26-020D-47CD-BB57-73A1953AB71E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="PlayThatAgain" ID="{851CD467-9D86-48C0-B026-02DED9789CD2}" ShortID="346168999">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="PlayThatAgain" ID="{50D2717F-0511-4BD5-9D00-D30925721847}">
-									<Language>SFX</Language>
-									<AudioFile> PlayThatAgain.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="238391500"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="PlayThatAgain" ID="{50D2717F-0511-4BD5-9D00-D30925721847}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Yes" ID="{9A816063-AC49-4BD6-9048-C0FFE072E222}" ShortID="576175358">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Yes" ID="{7C4B92F0-A9D8-4A4D-AC75-08FB1BBC3F6A}">
-									<Language>SFX</Language>
-									<AudioFile>Yes.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="99184811"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Yes" ID="{7C4B92F0-A9D8-4A4D-AC75-08FB1BBC3F6A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						<AudioFileSource Name="EntertainMeNOW" ID="{0FE3411F-2D55-4987-9AF5-78DC002D561B}">
+							<Language>SFX</Language>
+							<AudioFile>EntertainMeNOW.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="465493041"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Negative" ID="{021CE130-6A6E-40B6-89BD-A78810ADFF02}" ShortID="79278803">
+					<ActiveSourceList>
+						<ActiveSource Name="EntertainMeNOW" ID="{0FE3411F-2D55-4987-9AF5-78DC002D561B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Good" ID="{8A8369AD-D11E-46E7-8317-9C4BA24E0DCD}" ShortID="77735062">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -166,241 +216,26 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="StopAtOnce" ID="{4A3EB43A-90B3-423A-B946-D7377AD1AD80}" ShortID="139062426">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="StopAtOnce" ID="{B6253E43-A47C-4DCC-B01D-5005F817C2A6}">
-									<Language>SFX</Language>
-									<AudioFile>StopAtOnce.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="423896628"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="StopAtOnce" ID="{B6253E43-A47C-4DCC-B01D-5005F817C2A6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="StopNOW" ID="{E21C4AF7-658E-49F4-9DAB-DC79899646FB}" ShortID="701869045">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="StopNOW" ID="{3E67834F-C72D-4375-9A32-1F75492E1B46}">
-									<Language>SFX</Language>
-									<AudioFile>StopNOW.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="777522263"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="StopNOW" ID="{3E67834F-C72D-4375-9A32-1F75492E1B46}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="StopThatNonesense" ID="{E59C6CE2-8EF7-48C6-B363-F0D79D65AA82}" ShortID="184793128">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="StopThatNonesense" ID="{4EB7845C-DE8F-40FA-AAE6-853588F2AA32}">
-									<Language>SFX</Language>
-									<AudioFile>StopThatNonesense.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="708082094"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="StopThatNonesense" ID="{4EB7845C-DE8F-40FA-AAE6-853588F2AA32}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="ThatsEnough" ID="{F7227DD7-CBBB-409C-A9F9-48603FE0B69E}" ShortID="403089023">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="ThatsEnough" ID="{92016874-E5A3-4AD9-B619-2E36B88C1AE7}">
-									<Language>SFX</Language>
-									<AudioFile>ThatsEnough.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="43128493"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="ThatsEnough" ID="{92016874-E5A3-4AD9-B619-2E36B88C1AE7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="EntertainMeNOW" ID="{4E05C250-5A81-4EFD-9799-5CA7E2E743FC}" ShortID="931866865">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="EntertainMeNOW" ID="{0FE3411F-2D55-4987-9AF5-78DC002D561B}">
-									<Language>SFX</Language>
-									<AudioFile>EntertainMeNOW.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="465493041"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="EntertainMeNOW" ID="{0FE3411F-2D55-4987-9AF5-78DC002D561B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="ThatWasAnInsultToMozart" ID="{8C913C18-5471-4EE2-BB97-8F2D23FAA915}" ShortID="665312540">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="ThatWasAnInsultToMozart" ID="{7134B0ED-9C02-4FCD-A36A-5DFB29B408F8}">
-									<Language>SFX</Language>
-									<AudioFile>ThatWasAnInsultToMozart.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="245044160"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="ThatWasAnInsultToMozart" ID="{7134B0ED-9C02-4FCD-A36A-5DFB29B408F8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="YouAreNothingButAPrisioner" ID="{82F7D26A-AC91-47EB-8201-14B4D91F3F49}" ShortID="193271948">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="YouAreNothingButAPrisioner" ID="{B4366A20-48FA-4326-BBE9-4F97560A8AC9}">
-									<Language>SFX</Language>
-									<AudioFile>YouAreNothingButAPrisioner.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="254740884"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="YouAreNothingButAPrisioner" ID="{B4366A20-48FA-4326-BBE9-4F97560A8AC9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="DoNotExpectToLeave" ID="{119593B3-0D22-495B-BF6C-7E6FA0DC0A0F}" ShortID="543718883">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="DoNotExpectToLeave" ID="{1A99BEC5-E374-40FB-A416-AD6355423FF3}">
-									<Language>SFX</Language>
-									<AudioFile>DoNotExpectToLeave.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="941315583"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="DoNotExpectToLeave" ID="{1A99BEC5-E374-40FB-A416-AD6355423FF3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						<AudioFileSource Name="Good" ID="{C908DD26-020D-47CD-BB57-73A1953AB71E}">
+							<Language>SFX</Language>
+							<AudioFile>Good.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="493232185"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Encourage" ID="{93A0BE65-0A3B-4844-A311-29DC5E3A956B}" ShortID="718369303">
+					<ActiveSourceList>
+						<ActiveSource Name="Good" ID="{C908DD26-020D-47CD-BB57-73A1953AB71E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="IExpectYouKnowHowThisWorks" ID="{E3591EB3-1DBE-4240-A4FD-09BBB11E9AA5}" ShortID="370178899">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
@@ -410,37 +245,279 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="IExpectYouKnowHowThisWorks" ID="{E3591EB3-1DBE-4240-A4FD-09BBB11E9AA5}" ShortID="370178899">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="IExpectYouKnowHowThisWorks" ID="{119EAF5B-AD04-4684-B2F5-BC9642630530}">
-									<Language>SFX</Language>
-									<AudioFile>IExpectYouKnowHowThisWorks.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="403142968"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="IExpectYouKnowHowThisWorks" ID="{119EAF5B-AD04-4684-B2F5-BC9642630530}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						<AudioFileSource Name="IExpectYouKnowHowThisWorks" ID="{119EAF5B-AD04-4684-B2F5-BC9642630530}">
+							<Language>SFX</Language>
+							<AudioFile>IExpectYouKnowHowThisWorks.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="403142968"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
-				</RandomSequenceContainer>
+					<ActiveSourceList>
+						<ActiveSource Name="IExpectYouKnowHowThisWorks" ID="{119EAF5B-AD04-4684-B2F5-BC9642630530}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Leave" ID="{9C8C933E-CC77-48B3-8E47-0FFA41599756}" ShortID="788463716">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Leave" ID="{A3194CF5-CC29-40E1-9E12-6F5B50B6FAA4}">
+							<Language>SFX</Language>
+							<AudioFile>Leave.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="866642383"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Leave" ID="{A3194CF5-CC29-40E1-9E12-6F5B50B6FAA4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="StopAtOnce" ID="{4A3EB43A-90B3-423A-B946-D7377AD1AD80}" ShortID="139062426">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="StopAtOnce" ID="{B6253E43-A47C-4DCC-B01D-5005F817C2A6}">
+							<Language>SFX</Language>
+							<AudioFile>StopAtOnce.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="423896628"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="StopAtOnce" ID="{B6253E43-A47C-4DCC-B01D-5005F817C2A6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="StopNOW" ID="{E21C4AF7-658E-49F4-9DAB-DC79899646FB}" ShortID="701869045">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="StopNOW" ID="{3E67834F-C72D-4375-9A32-1F75492E1B46}">
+							<Language>SFX</Language>
+							<AudioFile>StopNOW.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="777522263"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="StopNOW" ID="{3E67834F-C72D-4375-9A32-1F75492E1B46}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="StopThatNonesense" ID="{E59C6CE2-8EF7-48C6-B363-F0D79D65AA82}" ShortID="184793128">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="StopThatNonesense" ID="{4EB7845C-DE8F-40FA-AAE6-853588F2AA32}">
+							<Language>SFX</Language>
+							<AudioFile>StopThatNonesense.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="708082094"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="StopThatNonesense" ID="{4EB7845C-DE8F-40FA-AAE6-853588F2AA32}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ThatsEnough" ID="{F7227DD7-CBBB-409C-A9F9-48603FE0B69E}" ShortID="403089023">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ThatsEnough" ID="{92016874-E5A3-4AD9-B619-2E36B88C1AE7}">
+							<Language>SFX</Language>
+							<AudioFile>ThatsEnough.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="43128493"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ThatsEnough" ID="{92016874-E5A3-4AD9-B619-2E36B88C1AE7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ThatWasAnInsultToMozart" ID="{8C913C18-5471-4EE2-BB97-8F2D23FAA915}" ShortID="665312540">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ThatWasAnInsultToMozart" ID="{7134B0ED-9C02-4FCD-A36A-5DFB29B408F8}">
+							<Language>SFX</Language>
+							<AudioFile>ThatWasAnInsultToMozart.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="245044160"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ThatWasAnInsultToMozart" ID="{7134B0ED-9C02-4FCD-A36A-5DFB29B408F8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wakeup_Mortal" ID="{D11C99E8-64B2-403C-A717-85426B09B2B6}" ShortID="457245910">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wakeup_Mortal" ID="{7F63BF69-D584-4913-AF02-56143C762C9F}">
+							<Language>SFX</Language>
+							<AudioFile>Wakeup_Mortal.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="31771302"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wakeup_Mortal" ID="{7F63BF69-D584-4913-AF02-56143C762C9F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Yes" ID="{9A816063-AC49-4BD6-9048-C0FFE072E222}" ShortID="576175358">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Yes" ID="{7C4B92F0-A9D8-4A4D-AC75-08FB1BBC3F6A}">
+							<Language>SFX</Language>
+							<AudioFile>Yes.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="99184811"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Yes" ID="{7C4B92F0-A9D8-4A4D-AC75-08FB1BBC3F6A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="YouAreNothingButAPrisioner" ID="{82F7D26A-AC91-47EB-8201-14B4D91F3F49}" ShortID="193271948">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="YouAreNothingButAPrisioner" ID="{B4366A20-48FA-4326-BBE9-4F97560A8AC9}">
+							<Language>SFX</Language>
+							<AudioFile>YouAreNothingButAPrisioner.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="254740884"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="YouAreNothingButAPrisioner" ID="{B4366A20-48FA-4326-BBE9-4F97560A8AC9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
