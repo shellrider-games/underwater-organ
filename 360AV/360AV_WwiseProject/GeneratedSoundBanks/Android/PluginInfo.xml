@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Platform="Android" BasePlatform="Android">
 	<PluginLibs>
+		<PluginLib LibName="Wwise RoomVerb" LibId="7733251" Type="Effect" DLL="AkRoomVerb" StaticLib="AkRoomVerbFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{802CB29E-2A07-E260-0929-231C7A375A1D}</FileHash>
+	<FileHash>{0F41ECCE-84AA-6089-4F3D-3B54AE62ED87}</FileHash>
 </PluginInfo>

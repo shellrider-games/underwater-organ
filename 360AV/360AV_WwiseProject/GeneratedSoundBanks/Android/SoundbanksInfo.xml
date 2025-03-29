@@ -9,10 +9,13 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6110BF75-B301-9DED-15C6-E0D28299AF61}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{783CAC41-7B01-6B3F-B07B-7ABF0F0D1629}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -21,8 +24,17 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="Reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CAC1C025-3317-9226-B26F-CD1A40623CF0}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B863981F-D5A4-DA89-7B2A-8C1B6B0A2975}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -641,9 +653,12 @@
 						<MediaRef Id="1067545004"/>
 						<MediaRef Id="1070516992"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E0585674-0E9F-BBE9-5DCA-6FD2812B6E6C}</FileHash>
+	<FileHash>{2BD5B7AA-2161-15E6-1435-7F20897278DB}</FileHash>
 </SoundBanksInfo>

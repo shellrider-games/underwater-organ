@@ -9,6 +9,11 @@
 						<Property Name="BlendBehavior" Type="int16" Value="1"/>
 						<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
 						<Property Name="MidiBreakOnNoteOff" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -16,6 +21,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{8753E414-0B37-44C9-9CAC-6D1C38A39EA5}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2281,6 +2289,11 @@
 						<Property Name="BlendBehavior" Type="int16" Value="1"/>
 						<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
 						<Property Name="MidiBreakOnNoteOff" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -2288,6 +2301,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{8753E414-0B37-44C9-9CAC-6D1C38A39EA5}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
