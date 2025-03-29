@@ -27,5 +27,6 @@ public class MyWwiseMIDIEvent : MonoBehaviour
         SynthEvent.StopMIDI(gameObject);
     }
     
+  
     
 }

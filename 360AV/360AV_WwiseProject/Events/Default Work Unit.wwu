@@ -21,6 +21,37 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StartAmbience" ID="{D2CF73A1-60B2-409C-8EED-50C884A48D2F}">
+					<ChildrenList>
+						<Action Name="" ID="{71FCEBD2-8D2D-41D6-97A5-EBFD4BD4B5A1}" ShortID="743409738">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{F5069953-F56D-43EC-9F9B-8106FB6C615F}" WorkUnitID="{762510AA-D133-40E9-94B1-2422E9B3DE20}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopAmbience" ID="{36D1603A-4E74-45D1-A345-70F5A6A53A9E}">
+					<ChildrenList>
+						<Action Name="" ID="{7A996AB3-F0B5-4060-8A60-847B03295BDB}" ShortID="44310372">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{F5069953-F56D-43EC-9F9B-8106FB6C615F}" WorkUnitID="{762510AA-D133-40E9-94B1-2422E9B3DE20}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

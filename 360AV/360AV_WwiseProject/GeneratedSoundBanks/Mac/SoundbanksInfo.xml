@@ -34,7 +34,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{43B71378-AF5D-1C68-67E5-345C126B31A8}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0F4716AA-8D3F-B2E2-A214-33B06517EC51}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -430,6 +430,10 @@
 					<ShortName>Flute4\050-D.wav</ShortName>
 					<CachePath>SFX/Flute4/050-D_329F0ADF.wem</CachePath>
 				</File>
+				<File Id="867115884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMBUndwtr_Amb Underwater_PSE_BW-BD3HL_UubOL.wav</ShortName>
+					<CachePath>SFX/AMBUndwtr_Amb Underwater_PSE_BW-BD3HL_UubOL_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="868687252" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute4\055-G.wav</ShortName>
 					<CachePath>SFX/Flute4/055-G_E9A306D8.wem</CachePath>
@@ -657,8 +661,14 @@
 						<AuxBusRef Id="348963605" Name="Reverb"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="1316191055" Name="StartAmbience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="867115884"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3264771457" Name="StopAmbience" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{992F31C0-85AB-41B0-AF71-9C7B0C78127A}</FileHash>
+	<FileHash>{9A6EA578-86E1-3FE9-0192-2A2664063C96}</FileHash>
 </SoundBanksInfo>
