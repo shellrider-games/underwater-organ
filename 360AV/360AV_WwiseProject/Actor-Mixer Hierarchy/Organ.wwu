@@ -16,6 +16,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="OrganAttenuation" ID="{B5B5715D-C6BD-4FB9-AEA9-89346D134B14}" WorkUnitID="{E0272860-F32A-40EA-BC44-F61E43003A54}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
 						</Reference>
@@ -2296,6 +2299,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="OrganAttenuation" ID="{B5B5715D-C6BD-4FB9-AEA9-89346D134B14}" WorkUnitID="{E0272860-F32A-40EA-BC44-F61E43003A54}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
 						</Reference>

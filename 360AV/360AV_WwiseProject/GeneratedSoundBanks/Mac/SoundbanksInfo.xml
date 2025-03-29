@@ -34,7 +34,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B863981F-D5A4-DA89-7B2A-8C1B6B0A2975}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{43B71378-AF5D-1C68-67E5-345C126B31A8}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -528,7 +528,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="689865038" Name="PlayOrgan" DurationType="Infinite">
+				<Event Id="689865038" Name="PlayOrgan" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="39625985"/>
 						<MediaRef Id="43614274"/>
@@ -660,5 +660,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{90D6B969-B928-0F08-FAA6-A48F118F99D5}</FileHash>
+	<FileHash>{992F31C0-85AB-41B0-AF71-9C7B0C78127A}</FileHash>
 </SoundBanksInfo>
