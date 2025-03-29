@@ -52,56 +52,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayPositiveVoiceline" ID="{426F4F2D-ECDE-4C03-AA74-1A358C95AE29}">
-					<ChildrenList>
-						<Action Name="" ID="{71242BC9-3A02-4B6C-A47A-7324406D4E1F}" ShortID="787835913">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Positive" ID="{1472ACE8-F183-4C7D-A999-14090DDEC95D}" WorkUnitID="{186E6A33-9297-4ADE-AF17-1D0BCF28A789}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="PlayNegativeVoiceline" ID="{F538542A-99F9-4057-A2CF-D0A1BA7823E1}">
-					<ChildrenList>
-						<Action Name="" ID="{F8882317-AE13-4049-B877-B6CF7C899545}" ShortID="988604726">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Negative" ID="{021CE130-6A6E-40B6-89BD-A78810ADFF02}" WorkUnitID="{186E6A33-9297-4ADE-AF17-1D0BCF28A789}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="PlayRequestOrganNote" ID="{2816619A-6835-4A9F-BDB3-CEDFC801DB13}">
-					<ChildrenList>
-						<Action Name="" ID="{6D4F9511-323D-40A0-8658-B5FC333DBA87}" ShortID="984906483">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Encourage" ID="{93A0BE65-0A3B-4844-A311-29DC5E3A956B}" WorkUnitID="{186E6A33-9297-4ADE-AF17-1D0BCF28A789}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="PlayWakeupVoiceline" ID="{B81635C9-9591-4280-945C-AF872184F40D}">
-					<ChildrenList>
-						<Action Name="" ID="{4DBEEB13-F85A-4425-871C-1DB7B87C64E1}" ShortID="574413197">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="EnoughRest" ID="{A412B95B-297E-4CF6-BD06-DB7FBCA255CA}" WorkUnitID="{186E6A33-9297-4ADE-AF17-1D0BCF28A789}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
