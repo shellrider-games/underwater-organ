@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID PLAYREQUESTORGANNOTE = 2696999197U;
         static const AkUniqueID PLAYWAKEUPVOICELINE = 2196541128U;
         static const AkUniqueID STARTAMBIENCE = 1316191055U;
+        static const AkUniqueID STARTRECORD = 4202142260U;
         static const AkUniqueID STOPAMBIENCE = 3264771457U;
     } // namespace EVENTS
 

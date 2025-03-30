@@ -11,6 +11,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AuxBus Name="Reverb" ID="{8753E414-0B37-44C9-9CAC-6D1C38A39EA5}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>516</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
@@ -24,10 +31,36 @@
 											</EffectSlot>
 										</Local>
 									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{DA9E87BD-80AD-4253-9C99-8DAD7E4102E2}" ShortID="1050913653">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+														<ObjectRef Name="Recorder" ID="{BEDA41A8-3F01-4218-B36B-9B6816745927}" WorkUnitID="{5F4A0366-7BB8-4839-B7FF-09DF05359F3C}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{3B6BA9C1-1B8C-4215-8D93-9F3769775597}" ShortID="248538367">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+												<ObjectRef Name="Recorder" ID="{BEDA41A8-3F01-4218-B36B-9B6816745927}" WorkUnitID="{5F4A0366-7BB8-4839-B7FF-09DF05359F3C}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

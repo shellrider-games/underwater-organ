@@ -96,6 +96,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StartRecord" ID="{8396BBD8-34F9-4BA8-BAEE-DFEE13281428}">
+					<ChildrenList>
+						<Action Name="" ID="{10654D46-EDBB-4318-B201-F5C13662B107}" ShortID="106430935">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CaptureStart" ID="{3BDA1D1B-868F-4B31-A624-3C9B15929E61}" WorkUnitID="{5282C575-6365-4A4E-AC37-54D903E436E0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

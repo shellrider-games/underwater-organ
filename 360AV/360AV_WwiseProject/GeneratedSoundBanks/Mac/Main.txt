@@ -6,6 +6,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	2196541128	PlayWakeupVoiceline			\Default Work Unit\PlayWakeupVoiceline	
 	2696999197	PlayRequestOrganNote			\Default Work Unit\PlayRequestOrganNote	
 	3264771457	StopAmbience			\Default Work Unit\StopAmbience	
+	4202142260	StartRecord			\Default Work Unit\StartRecord	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	316425169	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Organ\CaptureStart\Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	39625985	087-D#	C:\Users\serka\OneDrive - Fachhochschule St. Pölten\Dokumente\GitHub\underwater-organ\360AV\360AV_WwiseProject\.cache\Mac\SFX\Principal8\087-D#_EE5CCBF4.wem		\Actor-Mixer Hierarchy\Organ\Principal8\087-D#		576136

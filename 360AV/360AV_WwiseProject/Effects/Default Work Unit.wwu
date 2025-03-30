@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5F4A0366-7BB8-4839-B7FF-09DF05359F3C}" SchemaVersion="119">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{5F4A0366-7BB8-4839-B7FF-09DF05359F3C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5F4A0366-7BB8-4839-B7FF-09DF05359F3C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Recorder" ID="{BEDA41A8-3F01-4218-B36B-9B6816745927}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+					<PropertyList>
+						<Property Name="AmbisonicsChannelOrdering" Type="int16" Value="0"/>
+						<Property Name="AuthoringFilename" Type="string" Value="C:\Users\serka\Desktop\Record.wav"/>
+						<Property Name="DownmixToStereo" Type="bool" Value="False"/>
+						<Property Name="GameFilename" Type="string" Value="Audio\Recorded360AV.wav"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

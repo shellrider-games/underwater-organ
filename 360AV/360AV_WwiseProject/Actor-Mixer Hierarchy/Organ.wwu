@@ -4570,6 +4570,30 @@
 						</Sound>
 					</ChildrenList>
 				</BlendContainer>
+				<Sound Name="CaptureStart" ID="{3BDA1D1B-868F-4B31-A624-3C9B15929E61}" ShortID="288088883">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{873CD6B9-8050-4BE5-9F3C-6A8E2D278BCB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{8753E414-0B37-44C9-9CAC-6D1C38A39EA5}" WorkUnitID="{F47709C2-4D72-48C3-92C4-4FC3F51402FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Silence" ID="{A30B3AEC-46D7-4AFE-B631-8B00ACA1998D}" ShortID="316425169" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Silence" ID="{A30B3AEC-46D7-4AFE-B631-8B00ACA1998D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

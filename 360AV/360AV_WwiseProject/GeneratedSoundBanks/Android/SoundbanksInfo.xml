@@ -9,11 +9,12 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{783CAC41-7B01-6B3F-B07B-7ABF0F0D1629}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{38BA85D0-52C5-ECD0-8E9B-5356FE289E65}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="1745032475" Name="Recorder" LibName="Wwise Recorder" LibId="8650755"/>
 					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
@@ -22,19 +23,26 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1745032475"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 			</Busses>
 			<AuxBusses>
 				<AuxBus Id="348963605" Name="Reverb">
 					<PluginRefs>
 						<ShareSets>
+							<PluginRef Id="1745032475"/>
 							<PluginRef Id="3164629247"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4BB096D1-ACA3-EB86-2045-08168E761C74}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7B374A18-BF04-43B4-6522-CAB399EDF1C8}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -587,6 +595,11 @@
 					<CachePath>SFX/Principal8/050-D_8EFC4BBF.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="316425169" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="165084450" Name="PlayNegativeVoiceline" DurationType="OneShot" DurationMin="2.2204375" DurationMax="6.0119166">
 					<MediaRefs>
@@ -752,9 +765,19 @@
 						<MediaRef Id="867115884"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4202142260" Name="StartRecord" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="316425169"/>
+						</Custom>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="3264771457" Name="StopAmbience" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BED908FE-F1BE-4752-0ABE-3431711B278B}</FileHash>
+	<FileHash>{71983E55-1067-0ABB-0E62-D72F22A3C09C}</FileHash>
 </SoundBanksInfo>
