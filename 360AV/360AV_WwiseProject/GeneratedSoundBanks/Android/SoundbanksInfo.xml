@@ -34,13 +34,17 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0F4716AA-8D3F-B2E2-A214-33B06517EC51}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4BB096D1-ACA3-EB86-2045-08168E761C74}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="39625985" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Principal8\087-D#.wav</ShortName>
 					<CachePath>SFX/Principal8/087-D#_EE5CCBF4.wem</CachePath>
+				</File>
+				<File Id="43128493" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ThatsEnough.wav</ShortName>
+					<CachePath>SFX/ThatsEnough_818F3B66.wem</CachePath>
 				</File>
 				<File Id="43614274" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Principal8\096-C.wav</ShortName>
@@ -73,6 +77,10 @@
 				<File Id="99002994" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute4\063-D#.wav</ShortName>
 					<CachePath>SFX/Flute4/063-D#_6E5328C3.wem</CachePath>
+				</File>
+				<File Id="99184811" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Yes.wav</ShortName>
+					<CachePath>SFX/Yes_818F3B66.wem</CachePath>
 				</File>
 				<File Id="101862999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute4\093-A.wav</ShortName>
@@ -158,9 +166,21 @@
 					<ShortName>Flute4\038-D.wav</ShortName>
 					<CachePath>SFX/Flute4/038-D_D42EB1DF.wem</CachePath>
 				</File>
+				<File Id="238391500" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName> PlayThatAgain.wav</ShortName>
+					<CachePath>SFX/ PlayThatAgain_818F3B66.wem</CachePath>
+				</File>
 				<File Id="239538286" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute4\065-F.wav</ShortName>
 					<CachePath>SFX/Flute4/065-F_01AEF51C.wem</CachePath>
+				</File>
+				<File Id="245044160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ThatWasAnInsultToMozart.wav</ShortName>
+					<CachePath>SFX/ThatWasAnInsultToMozart_818F3B66.wem</CachePath>
+				</File>
+				<File Id="254740884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>YouAreNothingButAPrisioner.wav</ShortName>
+					<CachePath>SFX/YouAreNothingButAPrisioner_818F3B66.wem</CachePath>
 				</File>
 				<File Id="256175455" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute4\047-B.wav</ShortName>
@@ -189,6 +209,10 @@
 				<File Id="286777141" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Principal8\058-A#.wav</ShortName>
 					<CachePath>SFX/Principal8/058-A#_14C45AA4.wem</CachePath>
+				</File>
+				<File Id="287579341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BreaksOver.wav</ShortName>
+					<CachePath>SFX/BreaksOver_818F3B66.wem</CachePath>
 				</File>
 				<File Id="303114001" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Principal8\036-C.wav</ShortName>
@@ -246,9 +270,17 @@
 					<ShortName>Principal8\060-C.wav</ShortName>
 					<CachePath>SFX/Principal8/060-C_A4D9E459.wem</CachePath>
 				</File>
+				<File Id="403142968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>IExpectYouKnowHowThisWorks.wav</ShortName>
+					<CachePath>SFX/IExpectYouKnowHowThisWorks_818F3B66.wem</CachePath>
+				</File>
 				<File Id="419559830" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Principal8\041-F.wav</ShortName>
 					<CachePath>SFX/Principal8/041-F_A8A6CDE0.wem</CachePath>
+				</File>
+				<File Id="423896628" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StopAtOnce.wav</ShortName>
+					<CachePath>SFX/StopAtOnce_818F3B66.wem</CachePath>
 				</File>
 				<File Id="442472184" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Principal8\075-D#.wav</ShortName>
@@ -274,6 +306,10 @@
 					<ShortName>Principal8\069-A.wav</ShortName>
 					<CachePath>SFX/Principal8/069-A_44EEF028.wem</CachePath>
 				</File>
+				<File Id="465493041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>EntertainMeNOW.wav</ShortName>
+					<CachePath>SFX/EntertainMeNOW_818F3B66.wem</CachePath>
+				</File>
 				<File Id="470474439" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Principal8\080-G#.wav</ShortName>
 					<CachePath>SFX/Principal8/080-G#_499DACD2.wem</CachePath>
@@ -289,6 +325,10 @@
 				<File Id="492389214" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute4\068-G#.wav</ShortName>
 					<CachePath>SFX/Flute4/068-G#_2FB16FE5.wem</CachePath>
+				</File>
+				<File Id="493232185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Good.wav</ShortName>
+					<CachePath>SFX/Good_818F3B66.wem</CachePath>
 				</File>
 				<File Id="494295424" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute4\045-A.wav</ShortName>
@@ -334,6 +374,10 @@
 					<ShortName>Principal8\062-D.wav</ShortName>
 					<CachePath>SFX/Principal8/062-D_A48A428E.wem</CachePath>
 				</File>
+				<File Id="583801744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Again.wav</ShortName>
+					<CachePath>SFX/Again_818F3B66.wem</CachePath>
+				</File>
 				<File Id="592303247" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Principal8\044-G#.wav</ShortName>
 					<CachePath>SFX/Principal8/044-G#_9AAC11BE.wem</CachePath>
@@ -374,6 +418,10 @@
 					<ShortName>Principal8\076-E.wav</ShortName>
 					<CachePath>SFX/Principal8/076-E_76D4C568.wem</CachePath>
 				</File>
+				<File Id="708082094" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StopThatNonesense.wav</ShortName>
+					<CachePath>SFX/StopThatNonesense_818F3B66.wem</CachePath>
+				</File>
 				<File Id="738563486" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute4\089-F.wav</ShortName>
 					<CachePath>SFX/Flute4/089-F_C5326EDB.wem</CachePath>
@@ -397,6 +445,10 @@
 				<File Id="775148193" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute4\064-E.wav</ShortName>
 					<CachePath>SFX/Flute4/064-E_5E6479F9.wem</CachePath>
+				</File>
+				<File Id="777522263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StopNOW.wav</ShortName>
+					<CachePath>SFX/StopNOW_818F3B66.wem</CachePath>
 				</File>
 				<File Id="779136614" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute4\073-C#.wav</ShortName>
@@ -474,6 +526,10 @@
 					<ShortName>Flute4\039-D#.wav</ShortName>
 					<CachePath>SFX/Flute4/039-D#_ACD4E4D5.wem</CachePath>
 				</File>
+				<File Id="941315583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DoNotExpectToLeave.wav</ShortName>
+					<CachePath>SFX/DoNotExpectToLeave_818F3B66.wem</CachePath>
+				</File>
 				<File Id="946869455" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Principal8\089-F.wav</ShortName>
 					<CachePath>SFX/Principal8/089-F_75C9F861.wem</CachePath>
@@ -532,6 +588,17 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="165084450" Name="PlayNegativeVoiceline" DurationType="OneShot" DurationMin="2.2204375" DurationMax="6.0119166">
+					<MediaRefs>
+						<MediaRef Id="43128493"/>
+						<MediaRef Id="245044160"/>
+						<MediaRef Id="254740884"/>
+						<MediaRef Id="423896628"/>
+						<MediaRef Id="708082094"/>
+						<MediaRef Id="777522263"/>
+						<MediaRef Id="941315583"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="689865038" Name="PlayOrgan" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="39625985"/>
@@ -661,6 +728,25 @@
 						<AuxBusRef Id="348963605" Name="Reverb"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="478196114" Name="PlayPositiveVoiceline" DurationType="OneShot" DurationMin="2.2855208" DurationMax="3.8077083">
+					<MediaRefs>
+						<MediaRef Id="99184811"/>
+						<MediaRef Id="238391500"/>
+						<MediaRef Id="403142968"/>
+						<MediaRef Id="493232185"/>
+						<MediaRef Id="583801744"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2696999197" Name="PlayRequestOrganNote" DurationType="OneShot" DurationMin="4.361875" DurationMax="4.361875">
+					<MediaRefs>
+						<MediaRef Id="465493041"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2196541128" Name="PlayWakeupVoiceline" DurationType="OneShot" DurationMin="2.6095" DurationMax="2.6095">
+					<MediaRefs>
+						<MediaRef Id="287579341"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1316191055" Name="StartAmbience" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="867115884"/>
@@ -670,5 +756,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{87E6E39B-D096-670C-6365-9C770254EDD2}</FileHash>
+	<FileHash>{BED908FE-F1BE-4752-0ABE-3431711B278B}</FileHash>
 </SoundBanksInfo>

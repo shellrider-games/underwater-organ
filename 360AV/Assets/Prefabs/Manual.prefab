@@ -171,7 +171,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &321969335478128834
 GameObject:
@@ -344,7 +344,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &338007388579946418
 GameObject:
@@ -517,7 +517,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &649720236010156472
 GameObject:
@@ -690,7 +690,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &750855666747459816
 GameObject:
@@ -863,7 +863,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &836730334145982484
 GameObject:
@@ -1036,7 +1036,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &1150604437686190634
 GameObject:
@@ -1209,7 +1209,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &1253264893288888729
 GameObject:
@@ -1382,7 +1382,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &1408172518896455258
 GameObject:
@@ -1555,7 +1555,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &1571021984132339195
 GameObject:
@@ -1728,7 +1728,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &1752542972196474607
 GameObject:
@@ -1901,7 +1901,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &1799783244309792324
 GameObject:
@@ -2106,7 +2106,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &2599388044993560194
 GameObject:
@@ -2279,7 +2279,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &3032453130517793688
 GameObject:
@@ -2452,7 +2452,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &3395710197874576937
 GameObject:
@@ -2625,7 +2625,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &3419318790818093435
 GameObject:
@@ -2798,7 +2798,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &3509150440286453324
 GameObject:
@@ -2971,7 +2971,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &3552953991255690911
 GameObject:
@@ -3144,7 +3144,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &3761080743774072858
 GameObject:
@@ -3317,7 +3317,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &3936062503515645079
 GameObject:
@@ -3490,7 +3490,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4067439035242554837
 GameObject:
@@ -3663,7 +3663,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4170434872681383538
 GameObject:
@@ -3836,7 +3836,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4170554753830706819
 GameObject:
@@ -4009,7 +4009,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4188896867295567844
 GameObject:
@@ -4182,7 +4182,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4297781834706527064
 GameObject:
@@ -4355,7 +4355,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4424720863805948069
 GameObject:
@@ -4528,7 +4528,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4744652021630909377
 GameObject:
@@ -4701,7 +4701,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4758326891230694746
 GameObject:
@@ -4874,7 +4874,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4798675572367653020
 GameObject:
@@ -5047,7 +5047,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4889803494450124649
 GameObject:
@@ -5220,7 +5220,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4933620307470737221
 GameObject:
@@ -5393,7 +5393,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &4943659782288526373
 GameObject:
@@ -5566,7 +5566,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &5005511382250525512
 GameObject:
@@ -5739,7 +5739,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &5254892220452679751
 GameObject:
@@ -5912,7 +5912,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &5448066244482488065
 GameObject:
@@ -6085,7 +6085,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &5831858688950169561
 GameObject:
@@ -6258,7 +6258,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &5929227389797403401
 GameObject:
@@ -6431,7 +6431,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &6170615103537748164
 GameObject:
@@ -6604,7 +6604,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &6595257447593657822
 GameObject:
@@ -6777,7 +6777,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &6869048865901451265
 GameObject:
@@ -6950,7 +6950,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &6941418166900619392
 GameObject:
@@ -7123,7 +7123,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &7032328366044858518
 GameObject:
@@ -7296,7 +7296,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &7188347520151814838
 GameObject:
@@ -7469,7 +7469,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &7265909483538319896
 GameObject:
@@ -7642,7 +7642,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &7352995791596226463
 GameObject:
@@ -7815,7 +7815,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &7459995893428300639
 GameObject:
@@ -7988,7 +7988,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &7581574214251240981
 GameObject:
@@ -8161,7 +8161,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &7671740965428566057
 GameObject:
@@ -8334,7 +8334,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &7833966947633900021
 GameObject:
@@ -8507,7 +8507,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &7910384748989931137
 GameObject:
@@ -8680,7 +8680,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &7929277496054631454
 GameObject:
@@ -8853,7 +8853,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &8067593536833398206
 GameObject:
@@ -9026,7 +9026,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &8086973221952873504
 GameObject:
@@ -9199,7 +9199,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &8131254982068506259
 GameObject:
@@ -9372,7 +9372,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &8313155028431281812
 GameObject:
@@ -9545,7 +9545,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &8313343450875907872
 GameObject:
@@ -9718,7 +9718,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &8373568852863293932
 GameObject:
@@ -9891,7 +9891,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &8787953408113037512
 GameObject:
@@ -10064,7 +10064,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &8830146309451140163
 GameObject:
@@ -10237,7 +10237,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &8970011267662338389
 GameObject:
@@ -10410,7 +10410,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1 &9136173727561785166
 GameObject:
@@ -10583,7 +10583,7 @@ MonoBehaviour:
       m_PokeDirection: 5
       m_InteractionDepthOffset: 0
       m_EnablePokeAngleThreshold: 1
-      m_PokeAngleThreshold: 45
+      m_PokeAngleThreshold: 89.9
     m_Variable: {fileID: 0}
 --- !u!1001 &6401496973080934668
 PrefabInstance:
